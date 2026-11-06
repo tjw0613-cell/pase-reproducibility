@@ -1,0 +1,11 @@
+{
+  "patient_rows": 536,
+  "available_patient_effects_verified": 503,
+  "max_patient_absolute_error": 3.6637359812630166e-15,
+  "cohort_summary_rows": 34,
+  "max_summary_absolute_error": 3.9346834124209806e-10,
+  "paired_anchor_checks": 3,
+  "leave_one_out_and_tenfold_checked": true,
+  "source_failure": "PT13",
+  "lock_sha256": "e87d2decb0324cfe3f0608ab812d58347f339cf76a7a19da98e65e03453e4992"
+}

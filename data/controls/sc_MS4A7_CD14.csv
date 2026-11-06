@@ -1,0 +1,2 @@
+"gene1","gene2","cells","donors","status","fixed_rho","fisher_z_se","fixed_z_wald_p","max_abs_gradient","min_hessian_eigen","detail","elapsed_s","warnings"
+"MS4A7","CD14",4126,19,"ok",0.56546428997569,0.0345423238227773,7.85474844260147e-77,0.0383019394889096,0.00869550800808257,"",177.78,""

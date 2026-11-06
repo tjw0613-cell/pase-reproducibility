@@ -1,0 +1,2 @@
+"gene1","gene2","cells","donors","status","fixed_rho","fisher_z_se","fixed_z_wald_p","max_abs_gradient","min_hessian_eigen","detail","elapsed_s","warnings"
+"C1QA","C1QB",4126,19,"numerical_diagnostic_failed",0.974793038578847,0.0673601092643118,,5.56437765605702,0.131074433231718,"",310.12,""

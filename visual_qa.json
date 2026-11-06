@@ -1,0 +1,27 @@
+{
+  "visual_inspection": {
+    "figures": [
+      1,
+      2,
+      5,
+      6
+    ],
+    "status": "inspected",
+    "format": "300 dpi rendered PNG at fixed 6.5-inch figure width",
+    "checks": [
+      "legible labels",
+      "text within canvas",
+      "all reported uncertainty intervals visible",
+      "all method denominators retained",
+      "consistent DejaVu Sans",
+      "Figure 5 runtime columns separated",
+      "Figure 6 legend separated from first cohort labels"
+    ],
+    "note": "No data values were changed during portability/layout adjustments."
+  },
+  "input_manifest_sha256": "d39e3611b015682bd2b360f5d375be0b0947990dcbf0c5f689398eafcbbfc9e0",
+  "sources_checked": 32,
+  "protocol_publication": "not published as reported by author",
+  "formal_simulation": "not run",
+  "external_publication_performed": false
+}

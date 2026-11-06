@@ -1,0 +1,2064 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="2.3">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">Front. Immunol.</journal-id>
+<journal-title>Frontiers in Immunology</journal-title>
+<abbrev-journal-title abbrev-type="pubmed">Front. Immunol.</abbrev-journal-title>
+<issn pub-type="epub">1664-3224</issn>
+<publisher>
+<publisher-name>Frontiers Media S.A.</publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.3389/fimmu.2021.694801</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Immunology</subject>
+<subj-group>
+<subject>Original Research</subject>
+</subj-group>
+</subj-group>
+</article-categories>
+<title-group>
+<article-title>Multi-Omics Analysis Showed the Clinical Value of Gene Signatures of C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs in Cervical Cancer</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<name>
+<surname>Li</surname>
+<given-names>Xiong</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/1389204"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Zhang</surname>
+<given-names>Qinghua</given-names>
+</name>
+<xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/1389219"/>
+</contrib>
+<contrib contrib-type="author">
+<name>
+<surname>Chen</surname>
+<given-names>Gang</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/795621"/>
+</contrib>
+<contrib contrib-type="author" corresp="yes">
+<name>
+<surname>Luo</surname>
+<given-names>Danfeng</given-names>
+</name>
+<xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+<xref ref-type="author-notes" rid="fn001">
+<sup>*</sup>
+</xref>
+<uri xlink:href="https://loop.frontiersin.org/people/1303356"/>
+</contrib>
+</contrib-group>
+<aff id="aff1">
+<sup>1</sup>
+<institution>Department of Obstetrics and Gynecology, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology</institution>, <addr-line>Wuhan</addr-line>, <country>China</country>
+</aff>
+<aff id="aff2">
+<sup>2</sup>
+<institution>Department of Obstetrics and Gynecology, the Central Hospital of Wuhan, Tongji Medical College, Huazhong University of Science and Technology</institution>, <addr-line>Wuhan</addr-line>, <country>China</country>
+</aff>
+<author-notes>
+<fn fn-type="edited-by">
+<p>Edited by: Wei Wei, Institute for Systems Biology (ISB), United States</p>
+</fn>
+<fn fn-type="edited-by">
+<p>Reviewed by: Reem Saleh, Peter MacCallum Cancer Centre, Australia; Xiaosheng Wang, China Pharmaceutical University, China</p>
+</fn>
+<fn fn-type="corresp" id="fn001">
+<p>*Correspondence: Danfeng Luo, <email xlink:href="mailto:daluo@tjh.tjmu.edu.cn">daluo@tjh.tjmu.edu.cn</email>
+</p>
+</fn>
+<fn fn-type="other" id="fn002">
+<p>This article was submitted to Cancer Immunity and Immunotherapy, a section of the journal Frontiers in Immunology</p>
+</fn>
+</author-notes>
+<pub-date pub-type="epub">
+<day>06</day>
+<month>07</month>
+<year>2021</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2021</year>
+</pub-date>
+<volume>12</volume>
+<elocation-id>694801</elocation-id>
+<history>
+<date date-type="received">
+<day>13</day>
+<month>04</month>
+<year>2021</year>
+</date>
+<date date-type="accepted">
+<day>21</day>
+<month>06</month>
+<year>2021</year>
+</date>
+</history>
+<permissions>
+<copyright-statement>Copyright &#xa9; 2021 Li, Zhang, Chen and Luo</copyright-statement>
+<copyright-year>2021</copyright-year>
+<copyright-holder>Li, Zhang, Chen and Luo</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+<p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p>
+</license>
+</permissions>
+<abstract>
+<sec>
+<title>Purpose</title>
+<p>To evaluate the value of C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures in patients with cervical cancer.</p>
+</sec>
+<sec>
+<title>Methods</title>
+<p>We compare the C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures with the M1/M2 gene signatures at single cell level and bulk RNA-seq level and evaluate which gene signature can clearly divide TAMs and patients with cervical cancer into distinct clinical subclusters better.</p>
+</sec>
+<sec>
+<title>Results</title>
+<p>At single-cell level, C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures, but not M1 and M2 gene signatures, could clearly divided TAMs into two subclusters in a colon cancer data set and an advanced basal cell data set. For cervical cancer data from TCGA, patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures have the best prognosis, lowest proportion (34.21%) of locally advanced cervical cancer (LACC), and highest immune cell infiltration, whereas patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures have the worst prognosis, highest proportion (71.79%) of LACC and lowest immune cell infiltration. Patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signature have higher expression of most of the Immune checkpoint molecules (ICMs) than patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures. The GSEA results suggested that subgroups of patients divided by C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures showed different anti- or pro-tumor state.</p>
+</sec>
+<sec>
+<title>Conclusion</title>
+<p>C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures, but not M1/M2 gene signatures, can divide cervical patients into subgroups with different prognosis, tumor stage, different immune cell infiltration, and ICMs expression. Our findings may help to find suitable treatment strategy for cervical cancer patients with different TAMs gene signatures.</p>
+</sec>
+</abstract>
+<kwd-group>
+<kwd>cervical cancer</kwd>
+<kwd>TAMs (tumor associated myeloid cells)</kwd>
+<kwd>C1QC</kwd>
+<kwd>SPP1 gene</kwd>
+<kwd>single cell</kwd>
+<kwd>immunity</kwd>
+</kwd-group>
+<contract-num rid="cn002">81902653, 81472783, 81472444, 81202061</contract-num>
+<contract-sponsor id="cn001">Wuhan Municipal Human Resources and Social Security Bureau<named-content content-type="fundref-id">10.13039/100017887</named-content>
+</contract-sponsor>
+<contract-sponsor id="cn002">Foundation for Innovative Research Groups of the National Natural Science Foundation of China<named-content content-type="fundref-id">10.13039/501100012659</named-content>
+</contract-sponsor>
+<counts>
+<fig-count count="5"/>
+<table-count count="2"/>
+<equation-count count="0"/>
+<ref-count count="41"/>
+<page-count count="12"/>
+<word-count count="5288"/>
+</counts>
+</article-meta>
+</front>
+<body>
+<sec id="s1" sec-type="intro">
+<title>Introduction</title>
+<p>Despite initiatives to improve the prevention of cervical cancer with screening and vaccination, cervical cancer is still one of the leading causes of death among women worldwide (<xref ref-type="bibr" rid="B1">1</xref>). Improvements in survival have mainly been through effective surgery, technical radiotherapy, and addition of bevacizumab to standard chemotherapy in recent years (<xref ref-type="bibr" rid="B2">2</xref>, <xref ref-type="bibr" rid="B3">3</xref>). However, women with advanced or recurrent disease still face a dismal prognosis with potentially considerable morbidity and mortality. Immunotherapy might be a novel choice to improve the clinical outcomes of these patients. On the established clinical benefit of PD-1/PD-L1 inhibitors in cervical cancer, the Food and Drug Administration (FDA) has approved pembrolizumab for patients with recurrent or metastatic cervical cancer with disease progression during or after chemotherapy. However, treatment options are still limited, extensive researches and clinical trials are needed to be carried out to identify novel Immunotherapy signatures and options (<xref ref-type="bibr" rid="B4">4</xref>, <xref ref-type="bibr" rid="B5">5</xref>).</p>
+<p>The tumor microenvironment (TME) are governed by crosstalks within and across various cellular compartments, including immune, malignant, endothelial, and stromal cells (<xref ref-type="bibr" rid="B6">6</xref>). Tumor-associated macrophages (TAMs), which are considered as the main components of the tumor microenvironment, reportedly play key roles in the initiation and progression of cancers (<xref ref-type="bibr" rid="B7">7</xref>, <xref ref-type="bibr" rid="B8">8</xref>). The TAMs are highly dynamic and heterogeneous within and across different cancers (<xref ref-type="bibr" rid="B6">6</xref>, <xref ref-type="bibr" rid="B9">9</xref>). TAMs&#x2019; heterogeneity makes them with various functions. Different subsets of TAMs may show distinct functions. However, the distinction of different subsets of TAMs varied in different studies. In lung cancer and breast cancer, TAMs reportedly showed a continuous spectrum of phenotypes (<xref ref-type="bibr" rid="B10">10</xref>&#x2013;<xref ref-type="bibr" rid="B12">12</xref>). In some other cancers, TAMs were classified into &#x201c;traditional&#x201d; pro-inflammatory (M1-like) or anti-inflammatory (M2-like) TAMs (<xref ref-type="bibr" rid="B6">6</xref>, <xref ref-type="bibr" rid="B13">13</xref>). However, Lei et al. (<xref ref-type="bibr" rid="B10">10</xref>) reported that TAMs in colon cancer exhibited a remarkable dichotomy and were defined as C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs. Besides, the C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs could not be explained by the expression analyses based on genes associated with M1 and M2 TAMs in the colon cancer. The tumor angiogenesis, cell migration, ECM receptor interaction, and tumor vasculature pathways were enriched in SPP1<sup>+</sup> TAMs, whereas the complement activation and antigen processing and presentation pathways were significantly enriched in C1QC<sup>+</sup> TAMs. In addition, the combination of C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures could separate patients from TCGA COAD and READ into subgroups of distinct prognosis. Based on that, patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures had the best prognosis, whereas patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures had the worst prognosis.</p>
+<p>In different stages of cervical cancer, the phenotype of macrophages is constantly changing, which affects the ability of proliferation, invasion, and metastasis of cancer cells in many ways (<xref ref-type="bibr" rid="B14">14</xref>, <xref ref-type="bibr" rid="B15">15</xref>). The number of TAMs in cervical lesion matrix changes with the progress of cervical cancer. However, whether TAMs in cervical cancer show as the M1 and M2 phenotypes or C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs phenotypes remains unknown. It is best to use the single cell sequencing technology to distinct subsets of TAMs of cervical cancer; however, there is no single cell sequencing database in cervical cancer to be used so far. However, we can use bulk transcriptome data of cervical patients from TCGA to evaluate the gene signatures of known TAMs subsets.</p>
+<p>In this study, we compared the C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures, as well as classic M1 and M2 gene signatures, using transcriptome data of TCGA cervical cancer patients. We aim to find the relationship between different TAMs gene signatures and clinical features and the mechanisms behind, which may provide suggestion to treatment of cervical cancer in clinic.</p>
+</sec>
+<sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2_1">
+<title>Sources for Single Cell Data, Bulk RNA-Seq Data, and Immune Cell Infiltration Estimation of TCGA Samples</title>
+<p>Processed single-cell data of colon cancer was obtained from Gene Expression Omnibus (GEO) (GSE146771) (<xref ref-type="bibr" rid="B10">10</xref>). While processed single-cell data of advanced basal cell carcinoma was obtained from GEO (GSE123814) (<xref ref-type="bibr" rid="B16">16</xref>).</p>
+<p>Bulk RNA-seq gene expression data and clinical data of cervical cancer were downloaded from UCSC Xena (<uri xlink:href="https://xenabrowser.net/datapages/">https://xenabrowser.net/datapages/</uri>). The bulk RNA-seq gene expressions were log2(TPM+1) transformed. Immune cell infiltration estimation of TCGA samples were downloaded from TIMER2.0 (<uri xlink:href="http://timer.cistrome.org/">http://timer.cistrome.org/</uri>), which included immune signatures of TCGA samples calculated using TIMER, CIBERSORT, and xCell (<xref ref-type="bibr" rid="B17">17</xref>). Tumor mutational burden (TMB) data of TCGA samples were obtained from V&#xe9;steinn et al.&#x2019;s study (<xref ref-type="bibr" rid="B18">18</xref>).</p>
+</sec>
+<sec id="s2_2">
+<title>Define C1QC<sup>+</sup> TAMs, SPP1<sup>+</sup> TAMs, and M1/M2 Gene Signatures</title>
+<p>C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs gene signatures defined in Zhang et al.&#x2019;s study were used in our paper (<xref ref-type="bibr" rid="B10">10</xref>). C1QC<sup>+</sup> TAMs gene signature include the following genes: C1QA, C1QB, ITM2B, C1QC, HLA-DMB, MS4A6A, CTSC, TBXAS1, TMEM176B, SYNGR2, ARHGDIB, TMEM176A, UCP2, CAPZB, MAF, TREM2, and MSR1, whereas SPP1<sup>+</sup> TAMs gene signature includes the following genes: SPP1, PCSK5, SLC11A1, VCAN, SLC25A37, FLNA, UPP1, BCL6, AQP9, TIMP1, VEGFA, ADM, MARCO, FN1, and IL1RN.</p>
+<p>The M1/M2 gene signatures were obtained from Azizi et al.&#x2019;s research (<xref ref-type="bibr" rid="B10">10</xref>, <xref ref-type="bibr" rid="B11">11</xref>). Genes associated with &#x201c;classically activated&#x201d; (M1) macrophages include CCL5, CCR7, CD40, CD86, CXCL9, CXCL10, CXCL11, IDO1, IL1A, IL1B, IL6, IRF1, IRF5, and KYNU, while CCL4, CCL13, CCL18, CCL20, CCL22, CD276, CLEC7A, CTSA, CTSB, CTSC, CTSD, FN1, IL4R, IRF4, LYVE1, MMP9, MMP14, MMP19, MSR1, TGFB1, TGFB2, TGFB3, TNFSF8, TNFSF12, VEGFA, VEGFB, and VEGFC were used to define the signature of &#x201c;alternatively activated&#x201d; (M2) macrophages (<xref ref-type="bibr" rid="B10">10</xref>).</p>
+</sec>
+<sec id="s2_3">
+<title>Single-Cell Data Analysis</title>
+<p>Processed single-cell RNA-seq data were obtained as described above. The annotation information of cell types were included in the metadata as described by the original articles (<xref ref-type="bibr" rid="B10">10</xref>, <xref ref-type="bibr" rid="B16">16</xref>). The Seurat v3 (version 3.2.2) R package was used to analyze the processed scRNA-seq data (<xref ref-type="bibr" rid="B19">19</xref>). The function AddModuleScore in Seurat was used to calculate C1QC<sup>+</sup> TAMs, SPP1<sup>+</sup> TAMs, and M1/M2 gene signatures using their gene sets, respectively.</p>
+</sec>
+<sec id="s2_4">
+<title>TCGA Bulk RNA-Seq Data Analysis</title>
+<p>For the bulk RNA-seq data of TCGA cervical cancer samples, the mean expression of genes in the given signatures (C1QC<sup>+</sup> TAMs, SPP1<sup>+</sup> TAMs, and M1/M2 gene signatures) were used as the signature scores. Also, the mean expression of given signatures was grouped into high and low expression groups by the 55<sup>th</sup> and 45<sup>th</sup> quantile values (<xref ref-type="bibr" rid="B10">10</xref>). Immune cell infiltration estimation of TCGA samples was visualized as heatmaps using the R package ComplexHeatmap (<xref ref-type="bibr" rid="B20">20</xref>). Immunotherapy responses were predicted by TIDE (Tumor Immune Dysfunction and Exclusion) as described in a previous study (<xref ref-type="bibr" rid="B21">21</xref>).</p>
+</sec>
+<sec id="s2_5">
+<title>Gene Set Enrichment Analysis</title>
+<p>Different gene expression between patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures and patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures were calculated with LIMMA (version 3.46.0) package. Sorted (by log fold change) different expression gene list was used to perform the gene set enrichment analysis (GSEA) by using clusterProfiler (version 3.18.0) package (<xref ref-type="bibr" rid="B22">22</xref>).</p>
+</sec>
+<sec id="s2_6">
+<title>Statistical Analysis</title>
+<p>Either Pearson&#x2019;s chi-square test or Fisher&#x2019;s exact test was used to assess the different clinicopathological factors according to the different C1QC<sup>+</sup> TAMs, SPP1<sup>+</sup> TAMs gene signatures groups. Wilcoxon signed-rank test was used to compare gene and gene signatures between different group of patients. Kaplan-Meier survival curves among different groups were plotted using R function ggsurvplot. Cox proportional hazards model implemented in the R package survival was used to find the predict factors of prognostic. All statistical analyses were performed using R (v4.0.3). All figures were plotted by using R. P values &lt;0.05 were considered as statistically significant difference.</p>
+</sec>
+</sec>
+<sec id="s3" sec-type="results">
+<title>Results</title>
+<sec id="s3_1">
+<title>C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs Gene Signatures Can Divide TAMs Into Two Different Subsets in Colon Cancer and Advanced Basal Cell Carcinoma</title>
+<p>In Lei&#x2019;s paper (<xref ref-type="bibr" rid="B10">10</xref>), they found that TAMs showed a remarkable dichotomy and could be marked as C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs. Also, the C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs were different from &#x201c;classically activated&#x201d; M1 and &#x201c;alternatively activated&#x201d; M2 macrophages. We used single-cell data from Lei&#x2019;s paper and found that C1QC<sup>+</sup> TAMs gene signature and SPP1<sup>+</sup> TAMs gene signatures have high expressions in two different TAMs subsets, respectively (<xref ref-type="fig" rid="f1">
+<bold>Figure&#xa0;1</bold>
+</xref>), whereas M1 and M2 gene signatures did not have high expressions in different subsets of TAMs (<xref ref-type="fig" rid="f1">
+<bold>Figure&#xa0;1</bold>
+</xref>). To validate if C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs gene signatures can work better than M1 and M2 signatures in other cancers, we also analyzed another single cell data of advanced basal cell carcinoma (BCC) (<xref ref-type="bibr" rid="B16">16</xref>). In the BCC data, C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs gene signatures, but not M1 and M2 gene signatures, can divide TAMs into two different subsets (<xref ref-type="supplementary-material" rid="SF1">
+<bold>Figure S1</bold>
+</xref>). It is worth mentioning that, in both single cell databases, both C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs gene signatures had the highest expression only in TAMs but not in other cell types (<xref ref-type="fig" rid="f1">
+<bold>Figures&#xa0;1</bold>
+</xref> and <xref ref-type="supplementary-material" rid="SF1">
+<bold>S1</bold>
+</xref>). These data indicated that at least in colon cancer and advanced basal cell carcinoma, C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs gene signatures are better separators than M1 and M2 gene signatures to divide TAMs into different subsets, which may represent different immune functions.</p>
+<fig id="f1" position="float">
+<label>Figure&#xa0;1</label>
+<caption>
+<p>Single-cell transcriptome profiling and TAM gene signatures of the Human CRC TME. <bold>(A)</bold> tSNE plot showing major immune cell subsets in human CRC TME. <bold>(B)</bold> tSNE plot of all immune cells colored by enrichment of C1QC<sup>+</sup> TAM gene signatures. <bold>(C)</bold> tSNE plot of all immune cells colored by enrichment of SPP1<sup>+</sup> TAM gene signatures. <bold>(D)</bold> tSNE plot of all immune cells colored by enrichment of M1 gene signatures. <bold>(E)</bold> tSNE plot of all immune cells colored by enrichment of M2 gene signatures.</p>
+</caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fimmu-12-694801-g001.tif"/>
+</fig>
+</sec>
+<sec id="s3_2">
+<title>C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs Gene Signatures Can Divide Cervical Patients Into Different Prognostic and Clinical Subgroups</title>
+<p>Because there is no single-cell database of cervical patients, it is unknown of separation of TAMs from cervical patients into two distinct subgroups based on the TAMs gene signatures. We speculate that if C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs gene signatures can divide TAMs of cervical cancer patients into two distinct functional subsets, patients with different levels of C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs gene signatures may have different clinical features. We calculated C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs gene signatures in cervical cancer patients and normal cervical tissue from TCGA and GTEX, respectively, using their transcriptome data (<italic>Materials and Methods</italic>). Consistent with results in single-cell level data (<xref ref-type="bibr" rid="B10">10</xref>), cervical cancer samples showed higher C1QC<sup>+</sup> TAMs gene signature than normal cervical tissues (<xref ref-type="fig" rid="f2">
+<bold>Figure&#xa0;2A</bold>
+</xref>). However, we did not find significant difference of SPP1<sup>+</sup> TAMs gene signature between normal cervical tissues and cervical cancer samples (<xref ref-type="fig" rid="f2">
+<bold>Figure&#xa0;2B</bold>
+</xref>). Besides, we found that patients with locally advanced cervical cancer (LACC, Stage IB2-IVA) have lower C1QC<sup>+</sup> TAMs signature and higher SPP1<sup>+</sup> TAMs gene signature compared with patients with early stage (stage I-IB1) cervical cancer (<xref ref-type="fig" rid="f2">
+<bold>Figures&#xa0;2C, D</bold>
+</xref>
+<bold>)</bold>. Although patients with locally advanced cervical cancer and those with early stage cervical cancer have similar M1 and M2 gene signature levels (<xref ref-type="supplementary-material" rid="SF2">
+<bold>Figures S2A, B</bold>
+</xref>).</p>
+<fig id="f2" position="float">
+<label>Figure&#xa0;2</label>
+<caption>
+<p>C1QC+ and SPP1+ TAMs gene signatures in TCGA cervical cancer patients. <bold>(A)</bold> Violin plots showing comparison of C1QC<sup>+</sup> TAM gene signatures levels between normal and cervical cancer samples in TCGA. Two-sided Wilcoxon test. <bold>(B)</bold> Violin plots showing comparison of SPP1<sup>+</sup> TAM gene signatures levels between normal and cervical cancer samples in TCGA. Two-sided Wilcoxon test. <bold>(C)</bold> Violin plots showing comparison of C1QC<sup>+</sup> TAM gene signatures levels between patients with FIGO stage 1-IB1 and patients with FIGO stage IB2-IVA in TCGA. Two-sided Wilcoxon test. <bold>(D)</bold> Violin plots showing comparison of SPP1<sup>+</sup> TAM gene signatures levels between patients with FIGO stage 1-IB1 and patients with FIGO stage IB2-IVA in TCGA. Two-sided Wilcoxon test. <bold>(E)</bold> The Kaplan-Meier overall survival curves of TCGA cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM. <bold>(F)</bold> The Kaplan-Meier Disease specific survival curves of TCGA cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM. <bold>(G)</bold> Proportions of patients with FIGO stage I-IB1 and IB2-IVA in cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM.</p>
+</caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fimmu-12-694801-g002.tif"/>
+</fig>
+<p>Next, we divided cervical patients into high and low groups by the 55th and 45th quantile values of C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs gene signatures, respectively, and further separated patients into four subgroups according to the C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures levels. We found patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures have the best overall survival (OS) and disease specific survival (DSS) (<xref ref-type="fig" rid="f2">
+<bold>Figures&#xa0;2E, F</bold>
+</xref>
+<bold>)</bold>, whereas patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures have the worst OS and DSS (<xref ref-type="fig" rid="f2">
+<bold>Figures&#xa0;2E, F</bold>
+</xref>
+<bold>)</bold>. However, M1 and M2 gene signatures could not divide patients into distinct prognosis subgroups (<xref ref-type="supplementary-material" rid="SF2">
+<bold>Figures S2C, D</bold>
+</xref>). We also found that patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures have the lowest proportion (34.21%) of LACC, whereas patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signature have the highest proportion (71.79%) of LACC (<xref ref-type="fig" rid="f2">
+<bold>Figure&#xa0;2G</bold>
+</xref>). When comparing clinical features between these two groups, patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures had later FIGO stages, more positive pathologic lymph node, higher mortality, and higher proportion of patients developed with disease (<xref ref-type="table" rid="T1">
+<bold>Table&#xa0;1</bold>
+</xref>). There was no significant difference of histological grade, lymphovascular invasion indicator, tumor status, and metastasis between patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures and those with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures (<xref ref-type="table" rid="T1">
+<bold>Table&#xa0;1</bold>
+</xref>). Besides, after adjusting by age and FIGO stage, the C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures showed as an independent predict factor to worse OS (<xref ref-type="table" rid="T2">
+<bold>Table&#xa0;2</bold>
+</xref>). Although advanced FIGO stage (IB2-IVA) is correlated with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures (<xref ref-type="table" rid="T1">
+<bold>Table&#xa0;1</bold>
+</xref>), it was not associated with worse prognosis (P = 0.793, <xref ref-type="table" rid="T2">
+<bold>Table&#xa0;2</bold>
+</xref>). These results suggested that C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures could provide additional information besides clinicopathological factors to find cervical patients with different clinical outcome and prognosis.</p>
+<table-wrap id="T1" position="float">
+<label>Table&#xa0;1</label>
+<caption>
+<p>Clinicopathological factors of cervical cancer patients from TCGA.</p>
+</caption>
+<table frame="hsides">
+<thead>
+<tr>
+<th valign="top" rowspan="2" align="left"/>
+<th valign="top" align="center">Overall (N=82)</th>
+<th valign="top" colspan="2" align="center">C1QC<sup>+</sup>-SPP1<sup>+</sup> TAMs gene signatures</th>
+<th valign="top" align="center">P-value</th>
+</tr>
+<tr>
+<th valign="top" align="center">
+</th>
+<th valign="top" align="center">High_Low (N=40)</th>
+<th valign="top" align="center">Low_High (N=42)</th>
+<th valign="top" align="center">
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left">
+<bold>Age, years</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="left"/>
+<td valign="top" align="left"/>
+<td valign="top" align="left"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Mean (SD)</td>
+<td valign="top" align="center">46.0 (13.0)</td>
+<td valign="top" align="center">46.9 (12.9)</td>
+<td valign="top" align="center">45.2 (13.3)</td>
+<td valign="top" align="center">0.567</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Median [Min, Max]</td>
+<td valign="top" align="center">44.5 [21.0, 79.0]</td>
+<td valign="top" align="center">44.5 [25.0, 75.0]</td>
+<td valign="top" align="center">44.5 [21.0, 79.0]</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>FIGO Stage</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;I-IB1</td>
+<td valign="top" align="center">36 (43.9%)</td>
+<td valign="top" align="center">25 (62.5%)</td>
+<td valign="top" align="center">11 (26.2%)</td>
+<td valign="top" align="center">0.002</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;IB2-IVA</td>
+<td valign="top" align="center">41 (50.0%)</td>
+<td valign="top" align="center">13 (32.5%)</td>
+<td valign="top" align="center">28 (66.7%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Missing</td>
+<td valign="top" align="center">5 (6.1%)</td>
+<td valign="top" align="center">2 (5.0%)</td>
+<td valign="top" align="center">3 (7.1%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Histological type</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Adenosquamous</td>
+<td valign="top" align="center">1 (1.2%)</td>
+<td valign="top" align="center">1 (2.5%)</td>
+<td valign="top" align="center">0 (0%)</td>
+<td valign="top" align="center">0.400</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Cervical squamous cell carcinoma</td>
+<td valign="top" align="center">69 (84.1%)</td>
+<td valign="top" align="center">31 (77.5%)</td>
+<td valign="top" align="center">38 (90.5%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Endocervical adenocarcinoma of the usual type</td>
+<td valign="top" align="center">3 (3.7%)</td>
+<td valign="top" align="center">1 (2.5%)</td>
+<td valign="top" align="center">2 (4.8%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Endocervical type of adenocarcinoma</td>
+<td valign="top" align="center">5 (6.1%)</td>
+<td valign="top" align="center">4 (10.0%)</td>
+<td valign="top" align="center">1 (2.4%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Endometrioid adenocarcinoma of endocervix</td>
+<td valign="top" align="center">1 (1.2%)</td>
+<td valign="top" align="center">1 (2.5%)</td>
+<td valign="top" align="center">0 (0%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Mucinous adenocarcinoma of endocervical type</td>
+<td valign="top" align="center">3 (3.7%)</td>
+<td valign="top" align="center">2 (5.0%)</td>
+<td valign="top" align="center">1 (2.4%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Histological grade</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;G1</td>
+<td valign="top" align="center">5 (6.1%)</td>
+<td valign="top" align="center">2 (5.0%)</td>
+<td valign="top" align="center">3 (7.1%)</td>
+<td valign="top" align="center">0.981</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;G2</td>
+<td valign="top" align="center">34 (41.5%)</td>
+<td valign="top" align="center">17 (42.5%)</td>
+<td valign="top" align="center">17 (40.5%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;G3</td>
+<td valign="top" align="center">37 (45.1%)</td>
+<td valign="top" align="center">18 (45.0%)</td>
+<td valign="top" align="center">19 (45.2%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;GX</td>
+<td valign="top" align="center">6 (7.3%)</td>
+<td valign="top" align="center">3 (7.5%)</td>
+<td valign="top" align="center">3 (7.1%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Lymphovascular invasion indicator</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Absent</td>
+<td valign="top" align="center">20 (24.4%)</td>
+<td valign="top" align="center">15 (37.5%)</td>
+<td valign="top" align="center">5 (11.9%)</td>
+<td valign="top" align="center">0.126</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Present</td>
+<td valign="top" align="center">25 (30.5%)</td>
+<td valign="top" align="center">12 (30.0%)</td>
+<td valign="top" align="center">13 (31.0%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Missing</td>
+<td valign="top" align="center">37 (45.1%)</td>
+<td valign="top" align="center">13 (32.5%)</td>
+<td valign="top" align="center">24 (57.1%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Tumor status</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Tumor free</td>
+<td valign="top" align="center">55 (67.1%)</td>
+<td valign="top" align="center">31 (77.5%)</td>
+<td valign="top" align="center">24 (57.1%)</td>
+<td valign="top" align="center">0.112</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;With tumor</td>
+<td valign="top" align="center">26 (31.7%)</td>
+<td valign="top" align="center">9 (22.5%)</td>
+<td valign="top" align="center">17 (40.5%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Missing</td>
+<td valign="top" align="center">1 (1.2%)</td>
+<td valign="top" align="center">0 (0%)</td>
+<td valign="top" align="center">1 (2.4%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Metastasis</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;No</td>
+<td valign="top" align="center">76 (92.7%)</td>
+<td valign="top" align="center">38 (95.0%)</td>
+<td valign="top" align="center">38 (90.5%)</td>
+<td valign="top" align="center">0.717</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Yes</td>
+<td valign="top" align="center">6 (7.3%)</td>
+<td valign="top" align="center">2 (5.0%)</td>
+<td valign="top" align="center">4 (9.5%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Pathologic M</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;M0</td>
+<td valign="top" align="center">30 (36.6%)</td>
+<td valign="top" align="center">19 (47.5%)</td>
+<td valign="top" align="center">11 (26.2%)</td>
+<td valign="top" align="center">0.262</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;M1</td>
+<td valign="top" align="center">2 (2.4%)</td>
+<td valign="top" align="center">2 (5.0%)</td>
+<td valign="top" align="center">0 (0%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;MX</td>
+<td valign="top" align="center">34 (41.5%)</td>
+<td valign="top" align="center">17 (42.5%)</td>
+<td valign="top" align="center">17 (40.5%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Missing</td>
+<td valign="top" align="center">16 (19.5%)</td>
+<td valign="top" align="center">2 (5.0%)</td>
+<td valign="top" align="center">14 (33.3%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Pathologic N</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;N0</td>
+<td valign="top" align="center">40 (48.8%)</td>
+<td valign="top" align="center">30 (75.0%)</td>
+<td valign="top" align="center">10 (23.8%)</td>
+<td valign="top" align="center">0.002</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;N1</td>
+<td valign="top" align="center">18 (22.0%)</td>
+<td valign="top" align="center">5 (12.5%)</td>
+<td valign="top" align="center">13 (31.0%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;NX</td>
+<td valign="top" align="center">10 (12.2%)</td>
+<td valign="top" align="center">4 (10.0%)</td>
+<td valign="top" align="center">6 (14.3%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Missing</td>
+<td valign="top" align="center">14 (17.1%)</td>
+<td valign="top" align="center">1 (2.5%)</td>
+<td valign="top" align="center">13 (31.0%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>OS</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;No</td>
+<td valign="top" align="center">60 (73.2%)</td>
+<td valign="top" align="center">35 (87.5%)</td>
+<td valign="top" align="center">25 (59.5%)</td>
+<td valign="top" align="center">0.009</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Yes</td>
+<td valign="top" align="center">22 (26.8%)</td>
+<td valign="top" align="center">5 (12.5%)</td>
+<td valign="top" align="center">17 (40.5%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>DSS</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;No</td>
+<td valign="top" align="center">64 (78.0%)</td>
+<td valign="top" align="center">36 (90.0%)</td>
+<td valign="top" align="center">28 (66.7%)</td>
+<td valign="top" align="center">0.034</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Yes</td>
+<td valign="top" align="center">17 (20.7%)</td>
+<td valign="top" align="center">4 (10.0%)</td>
+<td valign="top" align="center">13 (31.0%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Missing</td>
+<td valign="top" align="center">1 (1.2%)</td>
+<td valign="top" align="center">0 (0%)</td>
+<td valign="top" align="center">1 (2.4%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>DFI</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;No</td>
+<td valign="top" align="center">38 (46.3%)</td>
+<td valign="top" align="center">26 (65.0%)</td>
+<td valign="top" align="center">12 (28.6%)</td>
+<td valign="top" align="center">0.900</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Yes</td>
+<td valign="top" align="center">10 (12.2%)</td>
+<td valign="top" align="center">6 (15.0%)</td>
+<td valign="top" align="center">4 (9.5%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Missing</td>
+<td valign="top" align="center">34 (41.5%)</td>
+<td valign="top" align="center">8 (20.0%)</td>
+<td valign="top" align="center">26 (61.9%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>PFI</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;No</td>
+<td valign="top" align="center">60 (73.2%)</td>
+<td valign="top" align="center">31 (77.5%)</td>
+<td valign="top" align="center">29 (69.0%)</td>
+<td valign="top" align="center">0.539</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Yes</td>
+<td valign="top" align="center">22 (26.8%)</td>
+<td valign="top" align="center">9 (22.5%)</td>
+<td valign="top" align="center">13 (31.0%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Treatment</bold>
+</td>
+<td valign="top" align="left"/>
+<td valign="top" align="left"/>
+<td valign="top" align="left"/>
+<td valign="top" align="left"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Radical surgery</td>
+<td valign="top" align="center">24 (29.3%)</td>
+<td valign="top" align="center">14 (35.0%)</td>
+<td valign="top" align="center">10 (23.8%)</td>
+<td valign="top" align="center">0.771</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Radical surgery and radiotherapy, or concurrent chemoradiation</td>
+<td valign="top" align="center">23 (28.0%)</td>
+<td valign="top" align="center">12 (30.0%)</td>
+<td valign="top" align="center">11 (26.2%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Radiotherapy</td>
+<td valign="top" align="center">17 (20.7%)</td>
+<td valign="top" align="center">8 (20.0%)</td>
+<td valign="top" align="center">9 (21.4%)</td>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Other</td>
+<td valign="top" align="center">18 (22.0%)</td>
+<td valign="top" align="center">6 (15.0%)</td>
+<td valign="top" align="center">12 (28.6%)</td>
+<td valign="top" align="center">&#x3000;</td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<fn>
+<p>TAMs, tumor-associated macrophages; High_Low, C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures group; Low_High, C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures group; SD, standard deviation; FIGO, International Federation of Gynecology and Obstetrics; OS, overall survival; DSS, disease-specific survival; DFI, disease-free interval; PFI, progression-free interval.</p>
+</fn>
+</table-wrap-foot>
+</table-wrap>
+<table-wrap id="T2" position="float">
+<label>Table&#xa0;2</label>
+<caption>
+<p>Prognostic values of clinical factors and C1QC+ and SPP1+ TAMs gene signatures in cervical cancer.</p>
+</caption>
+<table frame="hsides">
+<thead>
+<tr>
+<th valign="top" align="left"/>
+<th valign="top" align="center">Overall</th>
+<th valign="top" colspan="2" align="center">HR (univariable)</th>
+<th valign="top" colspan="2" align="center">HR (multivariable)|</th>
+</tr>
+<tr>
+<th valign="top" align="left"/>
+<th valign="top" align="center">(n=75)</th>
+<th valign="top" align="center">HR (95% CI)</th>
+<th valign="top" align="center">P</th>
+<th valign="top" align="center">HR (95% CI)</th>
+<th valign="top" align="center">P</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top" align="left">
+<bold>Age, years</bold>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Mean (SD)</td>
+<td valign="top" align="center">46</td>
+<td valign="top" align="center">1.03 (1.00&#x2013;1.07)</td>
+<td valign="top" align="center">0.067</td>
+<td valign="top" align="center">1.06 (0.99&#x2013;1.12)</td>
+<td valign="top" align="center">0.078</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>FIGO stage</bold>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;I-IB1</td>
+<td valign="top" align="center">36</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;IB2-IVA</td>
+<td valign="top" align="center">41</td>
+<td valign="top" align="center">1.95 (0.79&#x2013;4.79)</td>
+<td valign="top" align="center">0.146</td>
+<td valign="top" align="center">1.20 (0.30&#x2013;4.77)</td>
+<td valign="top" align="center">0.793</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Histological type</bold>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;SCC</td>
+<td valign="top" align="center">69</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;AS</td>
+<td valign="top" align="center">1</td>
+<td valign="top" align="center">NA</td>
+<td valign="top" align="center">NA</td>
+<td valign="top" align="center">NA</td>
+<td valign="top" align="center">NA</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Other</td>
+<td valign="top" align="center">12</td>
+<td valign="top" align="center">0.24 (0.03&#x2013;1.76)</td>
+<td valign="top" align="center">0.159</td>
+<td valign="top" align="center">0.37 (0.03&#x2013;4.03)</td>
+<td valign="top" align="center">0.416</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Histological grade</bold>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;G1</td>
+<td valign="top" align="center">5</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;G2</td>
+<td valign="top" align="center">34</td>
+<td valign="top" align="center">0.53 (0.07&#x2013;4.33)</td>
+<td valign="top" align="center">0.554</td>
+<td valign="top" align="center">0.08 (0.00&#x2013;1.28),</td>
+<td valign="top" align="center">0.074</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;G3</td>
+<td valign="top" align="center">37</td>
+<td valign="top" align="center">0.90 (0.11&#x2013;7.21)</td>
+<td valign="top" align="center">0.924</td>
+<td valign="top" align="center">0.03 (0.00&#x2013;0.91)</td>
+<td valign="top" align="center">0.044</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;GX</td>
+<td valign="top" align="center">6</td>
+<td valign="top" align="center">4.78 (0.51&#x2013;45.22)</td>
+<td valign="top" align="center">0.172</td>
+<td valign="top" align="center">0.39 (0.01&#x2013;12.22)</td>
+<td valign="top" align="center">0.595</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Pathologic M</bold>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;M0</td>
+<td valign="top" align="center">30</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;M1</td>
+<td valign="top" align="center">2</td>
+<td valign="top" align="center">2.88 (0.35&#x2013;23.84)</td>
+<td valign="top" align="center">0.327</td>
+<td valign="top" align="center">NA</td>
+<td valign="top" align="center">NA</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;MX</td>
+<td valign="top" align="center">34</td>
+<td valign="top" align="center">0.71 (0.26&#x2013;1.97)</td>
+<td valign="top" align="center">0.514</td>
+<td valign="top" align="center">0.10 (0.01&#x2013;1.10)</td>
+<td valign="top" align="center">0.059</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>Pathologic N</bold>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;N0</td>
+<td valign="top" align="center">40</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;N1</td>
+<td valign="top" align="center">18</td>
+<td valign="top" align="center">2.76 (0.84&#x2013;9.07)</td>
+<td valign="top" align="center">0.094</td>
+<td valign="top" align="center">0.98 (0.20&#x2013;4.76)</td>
+<td valign="top" align="center">0.981</td>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;NX</td>
+<td valign="top" align="center">10</td>
+<td valign="top" align="center">5.48 (1.52&#x2013;19.76)</td>
+<td valign="top" align="center">0.009</td>
+<td valign="top" align="center">4.91 (0.35&#x2013;69.22)</td>
+<td valign="top" align="center">0.238</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<bold>C1QC_SPP1</bold>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;High_Low</td>
+<td valign="top" align="center">40</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+<td valign="top" align="center"/>
+</tr>
+<tr>
+<td valign="top" align="left">&#x2003;Low_High</td>
+<td valign="top" align="center">42</td>
+<td valign="top" align="center">4.08 (1.50&#x2013;11.09)</td>
+<td valign="top" align="center">0.006</td>
+<td valign="top" align="center">8.40 (1.33&#x2013;52.94)</td>
+<td valign="top" align="center">0.023</td>
+</tr>
+</tbody>
+</table>
+<table-wrap-foot>
+<fn>
+<p>TAMs, tumor-associated macrophages; HR, hazard ratio; CI, confidence interval; SD, standard deviation; FIGO, International Federation of Gynecology and Obstetrics; SCC, squamous cell carcinoma; AS, adenosquamous cell carcinoma; C1QC_SPP1, C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures; High_Low, C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures; Low_High, C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures.</p>
+</fn>
+<fn>
+<p>NA, Not available.</p>
+</fn>
+</table-wrap-foot>
+</table-wrap>
+</sec>
+<sec id="s3_3">
+<title>C1QC<sup>+</sup> TAMs and SPP1<sup>+</sup> TAMs Gene Signatures Divide Cervical Patients Into Subgroups With Different Immune States</title>
+<p>The abundance of different TAM subtypes could have an impact on other immune cells infiltration and disease outcome in patients (<xref ref-type="bibr" rid="B6">6</xref>). We compared the immune cell infiltration by using cell type scores calculated by TIMER. Patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures had the highest immune cell infiltration, whereas patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures had the lowest immune cell infiltration (<xref ref-type="fig" rid="f3">
+<bold>Figure&#xa0;3A</bold>
+</xref>). Also, we found patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures had significantly higher CD8 T cell and CD4 T cell infiltration level than patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures (<xref ref-type="fig" rid="f3">
+<bold>Figure&#xa0;3B</bold>
+</xref>). The macrophages infiltration level did not show significant difference between patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures and patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures (<xref ref-type="fig" rid="f3">
+<bold>Figure&#xa0;3B</bold>
+</xref>). This may suggest that it is the different ratio of C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs, but not the TAMs amount, impacts the TME. We also used immune cells infiltration scores calculated by XCELL and CIBERSORT to perform the same analysis, and we found similar results (<xref ref-type="supplementary-material" rid="SF3">
+<bold>Figures S3A, B</bold>
+</xref>). &#x201c;Hot tumors&#x201d; which had higher T-cell immune infiltration was reported to have higher response rates to immune checkpoint inhibitors (ICIs) immunotherapies compared with &#x201c;cold tumors,&#x201d;&#xa0;which had lower T-cell immune infiltration (<xref ref-type="bibr" rid="B23">23</xref>). PD1, PD-L, and tumor mutational burden (TMB) were also reported to be associated with response to ICIs immunotherapy (<xref ref-type="bibr" rid="B24">24</xref>). We found that patients with C1QC<sup>high</sup> TAMs gene signatures had higher PD1 and PD-L1 expression than those with C1QC<sup>low</sup> TAMs gene signatures (<xref ref-type="fig" rid="f3">
+<bold>Figures&#xa0;3C, D</bold>
+</xref>
+<bold>)</bold>, and patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signature had the highest PD1 expression compared with the other three subgroups (<xref ref-type="fig" rid="f3">
+<bold>Figure&#xa0;3C</bold>
+</xref>). Also, we found that patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures had lowest TMB, whereas patients&#xa0;with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures had highest TMB, although the difference was not significant (<xref ref-type="fig" rid="f3">
+<bold>Figure&#xa0;3E</bold>
+</xref>). Microsatellite instability (MSI) is genetic instability in short nucleotide repeats (microsatellites) because of a high mutation rate resulted in abnormal DNA mismatch repair (<xref ref-type="bibr" rid="B25">25</xref>). Tumors with MSI-H exhibit a high mutation rate and neoantigen load that is positively associated with overall lymphocytic infiltration. The tumor-infiltrating lymphocytes, T helper 1 cells and memory T cells, will ultimately trigger an effective antitumor immune response (<xref ref-type="bibr" rid="B26">26</xref>&#x2013;<xref ref-type="bibr" rid="B28">28</xref>). MSI only exists in a small subset of cervical cancer patients (<xref ref-type="bibr" rid="B29">29</xref>). We found that patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures had higher proportion of MSI-H than patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures (<xref ref-type="fig" rid="f3">
+<bold>Figure&#xa0;3F</bold>
+</xref>). All these results suggest that patients could be divided into subgroups based on the C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures. This distinction is associated with different genomic status, immune cell infiltration, and finally different prognosis, which implies that different ratios of C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs subsets may impact TME state.</p>
+<fig id="f3" position="float">
+<label>Figure&#xa0;3</label>
+<caption>
+<p>Immune characteristics in different groups of TCGA cervical cancer patients. <bold>(A)</bold> Heatmap showing immune cell signatures by TIMER in cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM. <bold>(B)</bold> Violin plots showing comparison of CD8 T cell, CD4 T cell, and macrophages gene signatures among cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM. Two-sided Wilcoxon test. <bold>(C)</bold> Violin plots showing comparison of PD1 gene expression among cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM. Two-sided Wilcoxon test. <bold>(D)</bold> Violin plots showing comparison of PD-L1 gene expression among cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM. Two-sided Wilcoxon test. <bold>(E)</bold> Violin plots showing comparison of TMB among cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM. Two-sided Wilcoxon test. <bold>(F)</bold> Proportions of patients with MSI-H and MSS/MSI-L state in cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM.</p>
+</caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fimmu-12-694801-g003.tif"/>
+</fig>
+</sec>
+<sec id="s3_4">
+<title>Different Pathways Involved in Different C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs Gene Signatures Subgroups</title>
+<p>To figure out if some special pathways involved in different subsets divided by C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures, we compared transcriptome data of patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures to that of patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures. Gene set enrichment analysis (GSEA) was used to detect pathways enriched in different groups. C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures group exhibited enrichment of TCR signaling and interferon gamma signaling (<xref ref-type="fig" rid="f4">
+<bold>Figure&#xa0;4</bold>
+</xref>), suggesting the anti-tumor functions in these patients. While C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures group exhibited TGFb associated pathways, extracellular matrix organization, and keratinization pathway (<xref ref-type="fig" rid="f4">
+<bold>Figure&#xa0;4</bold>
+</xref>), suggesting the pro-tumorigenic functions in these patients. The GSEA results suggested that subgroups of patients divided by C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures showed different anti- or pro-tumor states.</p>
+<fig id="f4" position="float">
+<label>Figure&#xa0;4</label>
+<caption>
+<p>Enrichment plots from gene set enrichment analysis (GSEA). Differential pathway enriched in C1QC<sup>low</sup> + SPP1<sup>high</sup> TAMs gene signatures group and C1QC<sup>high</sup> + SPP1<sup>low</sup> TAMs gene signatures group.</p>
+</caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fimmu-12-694801-g004.tif"/>
+</fig>
+</sec>
+<sec id="s3_5">
+<title>Different C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs Gene Signatures Subgroups Showed Variable ICMs Expression and Immunotherapy Response</title>
+<p>The expressions of ICMs were associated with checkpoint inhibitor immunotherapy response (<xref ref-type="bibr" rid="B30">30</xref>, <xref ref-type="bibr" rid="B31">31</xref>). Many ICMs, such as PD1, CTLA4, IDO1, and HAVCR2, were used as the immunotherapy targets in the clinical trials (<xref ref-type="bibr" rid="B30">30</xref>). We compared most ICM expression among different C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures subgroups. Most (19/25) of the ICMs express higher in patients with C1QC<sup>high</sup> TAMs gene signatures compared with patients with C1QC<sup>low</sup> TAMs gene signatures (<xref ref-type="fig" rid="f5">
+<bold>Figure&#xa0;5</bold>
+</xref>). Also, we found that patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures had the highest expression of some ICMs (CD40LG, ADORA2A, CTLA4, IL2, LAG3, PDCD1, and TIGIT) compared with the other three subgroups (<xref ref-type="fig" rid="f5">
+<bold>Figure&#xa0;5</bold>
+</xref>), which means these patients may benefit more from ICI immunotherapy. Also, we also notice that the patients with C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures showed best OS and DSS (<xref ref-type="fig" rid="f2">
+<bold>Figures&#xa0;2E, F</bold>
+</xref>
+<bold>)</bold>. We used TIDE (<xref ref-type="bibr" rid="B21">21</xref>) to predict response to immunotherapy and found that patients with C1QC<sup>high</sup> TAMs gene signatures had higher immunotherapy response ratio than those with C1QC<sup>low</sup> TAMs gene signatures. Patients with C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures had the lowest ratio of response to immunotherapy (<xref ref-type="supplementary-material" rid="SF4">
+<bold>Figure S4</bold>
+</xref>). These results suggest that the C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures may be used to select cervical cancer patients who will benefit more from ICI immunotherapy.</p>
+<fig id="f5" position="float">
+<label>Figure&#xa0;5</label>
+<caption>
+<p>Immune checkpoint molecules (ICMs) expressions in different groups of TCGA cervical cancer patients. Violin plots showing comparison of ICMs expressions among cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM.</p>
+</caption>
+<graphic mimetype="image" mime-subtype="tiff" xlink:href="fimmu-12-694801-g005.tif"/>
+</fig>
+</sec>
+</sec>
+<sec id="s4" sec-type="discussion">
+<title>Discussion</title>
+<p>The development of cervical cancer is reportedly associated with human papillomavirus (HPV) infection, especially HPV intergation (<xref ref-type="bibr" rid="B32">32</xref>, <xref ref-type="bibr" rid="B33">33</xref>). On the other hand, immune system defects play a significant role in cancer progress, It is believed that HPV infection triggers a primarily cell-mediated immune response (<xref ref-type="bibr" rid="B34">34</xref>, <xref ref-type="bibr" rid="B35">35</xref>). Macrophage percentage was reported to increase linearly with neoplasia progression (<xref ref-type="bibr" rid="B36">36</xref>). Some studies showed that higher FIGO stage and lymph node metastasis or lymphangiogenesis usually showed larger counts of M2 macrophages, which were usually associated with poor prognosis (<xref ref-type="bibr" rid="B34">34</xref>). However, TAMs are of high heterogeneity, which contain various subsets with different functions. TAMs in different tumors also show different subsets (<xref ref-type="bibr" rid="B11">11</xref>, <xref ref-type="bibr" rid="B12">12</xref>). In this study, we evaluated the &#x201c;traditional&#x201d; M1/M2 gene signatures and the C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures in cervical cancer. We found that C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures were more suitable to divide cervical patients into subgroups with distinct clinical outcomes than M1/M2 gene signatures. Our research has three important implications for understanding the role of TAM cells in cervical cancer immunity.</p>
+<p>First, we found that C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures, but not M1 and M2 gene signatures, could clearly divided TAMs into two subsets in a colon cancer data set and an advanced basal cell carcinoma data set at single cell level. Although we did not have single cell level data to show subsets of TAMs in cervical cancer, we showed that, by using bulk RNA-seq data of cervical cancer from TCGA, C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures, but not M1 and M2 gene signatures, could divide cervical cancer patients into subgroups with different prognosis and different tumor stages. Patients with the C1QC<sup>high</sup> and SPP1<sup>low</sup> TAMs gene signatures had the lowest ratio of local advanced FIGO stages, whereas patients with the C1QC<sup>low</sup> and SPP1<sup>high</sup> TAMs gene signatures had the highest ratio of local advanced FIGO stages. C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures were obtained from TAMs; however, they could significantly divide patients into subgroups with distinct clinical outcomes, implying the importance of TAMs in the development of cervical cancer. Further studies are needed to figure out how the TAMs affect cervical cancer development.</p>
+<p>Second, cervical cancer subgroups divided by C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures showed different immune cell infiltration, with the C1QC<sup>high</sup> and SPP1<sup>low</sup> groups have the highest immune cell infiltration, whereas the C1QC<sup>low</sup> and SPP1<sup>high</sup> groups had the lowest immune cell infiltration. It was reported that &#x201c;hot tumors&#x201d; (with more T cell infiltration) had higher antitumor ability and were more responsive to immunotherapy than &#x201c;cold tumors&#x201d; (with none or few T cell infiltration) (<xref ref-type="bibr" rid="B37">37</xref>). In our study, we found that patients of the C1QC<sup>high</sup> and SPP1<sup>low</sup> group, which had the highest T-cell infiltration, showed the best prognosis, whereas patients of the C1QC<sup>low</sup> and SPP1<sup>high</sup> group, which had the lowest T cell infiltration, showed the worst prognosis. Patients with different C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signature patterns showed different T-cell infiltration, implying the effect of TAMs to T cell infiltration. The mechanism behind this phenomenon needs further research.</p>
+<p>Finally, we found that many of the immune checkpoint molecules (ICMs) expressed differently in different C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signature subgroups. Generally, patients with C1QC<sup>high</sup> TAMs gene signatures have higher immunotherapy checkpoint genes expression than those with C1QC<sup>low</sup> TAMs gene signatures. Since 2015, Clinical trials on different ICIs have been carried out for cervical cancer (<xref ref-type="bibr" rid="B38">38</xref>). However, the evidence is still limited to prove the correlation between ICMs and effects of immunotherapy (<xref ref-type="bibr" rid="B39">39</xref>, <xref ref-type="bibr" rid="B40">40</xref>). With more clinical research conducted for cervical cancer, our findings may provide valuable information for them.</p>
+<p>As mentioned above, our current study is based on TCGA bulk RNA-seq data, which inevitably has some limitations and needs further verification. Therefore, we are now working to verify the gene signatures of C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs in the clinical specimens of patients&#xa0;with&#xa0;cervical cancer at different&#xa0;clinical&#xa0;stages&#xa0;by utilizing single-cell sequencing technology. We believe that the combination of bulk RNA-seq and single-cell sequencing data will help us confirm the gene signatures of C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs in the cervical cancer microenvironment and signaling pathways, which may activate or in-activate in different TAMs subsets. RT-qPCR, FACS, and even IHC could also be used to identify the gene signatures in a large scale of clinical or animal model specimens. It is important to determine the role of C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs subsets in cervical cancer evolution and progression, and some ongoing experiments are in process. It is reported that there are crosstalks between TAMs and T cells, TAMs, and tumor cells. TAMs may interact with CD8<sup>+</sup> T cells and tumor cells through receptor-ligand pairs, such as SPP1-CD44 (<xref ref-type="bibr" rid="B41">41</xref>). The crosstalks between TAMs and CD8<sup>+</sup> T cells/tumor cells may be validated by using multiplex imaging analysis (<xref ref-type="bibr" rid="B41">41</xref>).</p>
+<p>In conclusion, C1QC<sup>+</sup> and SPP1<sup>+</sup> TAMs gene signatures derived from TAMs can divide cervical patients into subgroups with different prognosis and tumor stage, which may due to different immune cell infiltration. Our findings may help to find suitable treatment strategy for different subgroups of cervical cancer patients.</p>
+</sec>
+<sec id="s5">
+<title>Data Availability Statement</title>
+<p>The original contributions presented in the study are included in the article/<xref ref-type="supplementary-material" rid="SF1">
+<bold>Supplementary Material</bold>
+</xref>. Further inquiries can be directed to the corresponding author.</p>
+</sec>
+<sec id="s6">
+<title>Author Contributions</title>
+<p>XL, QZ, GC, and DL designed the study. XL and DL analyzed, interpreted data, and wrote the paper. All authors contributed to the article and approved the submitted version.</p>
+</sec>
+<sec id="s7" sec-type="funding-information">
+<title>Funding</title>
+<p>This work was supported by the National Natural Science Foundation of China (81902653, 81472783, 81472444, 81202061), and Wuhan Municipal health Commission (WX18Q16).</p>
+</sec>
+<sec id="s8" sec-type="COI-statement">
+<title>Conflict of Interest</title>
+<p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+</sec>
+</body>
+<back>
+<ack>
+<title>Acknowledgments</title>
+<p>We thank all participants recruited for this study.</p>
+</ack>
+<sec id="s9" sec-type="supplementary-material">
+<title>Supplementary Material</title>
+<p>The Supplementary Material for this article can be found online at: <ext-link ext-link-type="uri" xlink:href="https://www.frontiersin.org/articles/10.3389/fimmu.2021.694801/full#supplementary-material">https://www.frontiersin.org/articles/10.3389/fimmu.2021.694801/full#supplementary-material</ext-link></p>
+<supplementary-material xlink:href="Image_1.tif" id="SF1" mimetype="image/tiff">
+<label>Supplementary Figure&#xa0;1</label>
+<caption>
+<p>Single-cell transcriptome profiling and TAM gene signatures of the Human BCC TME. <bold>(A)</bold> UMAP plot showing major immune cell subsets in human BCC TME. <bold>(B)</bold> UMAP plot of all immune cells colored by enrichment of C1QC<sup>+</sup> TAM gene signatures. <bold>(C)</bold> UMAP plot of all immune cells colored by enrichment of SPP1<sup>+</sup> TAM gene signatures. <bold>(D)</bold> UMAP plot of all immune cells colored by enrichment of M1 gene signatures. <bold>(E)</bold> UMAP plot of all immune cells colored by enrichment of M2 gene signatures.</p>
+</caption>
+</supplementary-material>
+<supplementary-material xlink:href="Image_2.tif" id="SF2" mimetype="image/tiff">
+<label>Supplementary Figure&#xa0;2</label>
+<caption>
+<p>M1 and M2 gene signatures in TCGA cervical cancer patients. <bold>(A)</bold> Violin plots showing comparison of M1 gene signatures levels between patients with FIGO stage 1-IB1 and patients with FIGO stage IB2-IVA in TCGA. Two-sided Wilcoxon test. <bold>(B)</bold> Violin plots showing comparison of M2 gene signatures levels between patients with FIGO stage 1-IB1 and patients with FIGO stage IB2-IVA in TCGA. Two-sided Wilcoxon test. <bold>(C)</bold> The Kaplan-Meier overall survival curves of TCGA cervical cancer patients grouped by the gene signature expression of M1 and M2. <bold>(D)</bold> The Kaplan-Meier Disease specific survival curves of TCGA cervical cancer patients grouped by the gene signature expression of M1 and M2.</p>
+</caption>
+</supplementary-material>
+<supplementary-material xlink:href="Image_3.tif" id="SF3" mimetype="image/tiff">
+<label>Supplementary Figure&#xa0;3</label>
+<caption>
+<p>Heatmaps of immune cell infiltration in different groups of TCGA cervical cancer patients. <bold>(A)</bold> Heatmap showing immune cell signatures by XCELL in cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM. <bold>(B)</bold> Heatmap showing immune cell signatures by CIBERSORT in cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM.</p>
+</caption>
+</supplementary-material>
+<supplementary-material xlink:href="Image_4.tif" id="SF4" mimetype="image/tiff">
+<label>Supplementary Figure&#xa0;4</label>
+<caption>
+<p>Immunotherapy responses predicted by TIDE in TCGA cervical cancer patients. Immunotherapy responses were predicted by TIDE in cervical cancer patients grouped by the gene signature expression of C1QC<sup>+</sup> TAM and SPP1<sup>+</sup> TAM.</p>
+</caption>
+</supplementary-material>
+</sec>
+<ref-list>
+<title>References</title>
+<ref id="B1">
+<label>1</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Torre</surname> <given-names>LA</given-names>
+</name>
+<name>
+<surname>Bray</surname> <given-names>F</given-names>
+</name>
+<name>
+<surname>Siegel</surname> <given-names>RL</given-names>
+</name>
+<name>
+<surname>Ferlay</surname> <given-names>J</given-names>
+</name>
+<name>
+<surname>Lortet-Tieulent</surname> <given-names>J</given-names>
+</name>
+<name>
+<surname>Jemal</surname> <given-names>A</given-names>
+</name>
+</person-group>. <article-title>Global Cancer Statistics, 2012</article-title>. <source>CA Cancer J Clin</source> (<year>2015</year>) <volume>65</volume>:<fpage>87</fpage>&#x2013;<lpage>108</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.3322/caac.21262</pub-id>
+</citation>
+</ref>
+<ref id="B2">
+<label>2</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Fokdal</surname> <given-names>L</given-names>
+</name>
+<name>
+<surname>Sturdza</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Mazeron</surname> <given-names>R</given-names>
+</name>
+<name>
+<surname>Haie-Meder</surname> <given-names>C</given-names>
+</name>
+<name>
+<surname>Tan</surname> <given-names>LT</given-names>
+</name>
+<name>
+<surname>Gillham</surname> <given-names>C</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Image Guided Adaptive Brachytherapy With Combined Intracavitary and Interstitial Technique Improves the Therapeutic Ratio in Locally Advanced Cervical Cancer: Analysis From the retroEMBRACE Study</article-title>. <source>Radiother Oncol</source> (<year>2016</year>) <volume>120</volume>:<page-range>434&#x2013;40</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/j.radonc.2016.03.020</pub-id>
+</citation>
+</ref>
+<ref id="B3">
+<label>3</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Rosen</surname> <given-names>VM</given-names>
+</name>
+<name>
+<surname>Guerra</surname> <given-names>I</given-names>
+</name>
+<name>
+<surname>McCormack</surname> <given-names>M</given-names>
+</name>
+<name>
+<surname>Nogueira-Rodrigues</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Sasse</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Munk</surname> <given-names>VC</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Systematic Review and Network Meta-Analysis of Bevacizumab Plus First-Line Topotecan-Paclitaxel or Cisplatin-Paclitaxel Versus Non-Bevacizumab-Containing Therapies in Persistent, Recurrent, or Metastatic Cervical Cancer</article-title>. <source>Int J Gynecol Cancer</source> (<year>2017</year>) <volume>27</volume>:<page-range>1237&#x2013;46</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1097/IGC.0000000000001000</pub-id>
+</citation>
+</ref>
+<ref id="B4">
+<label>4</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Alley</surname> <given-names>EW</given-names>
+</name>
+<name>
+<surname>Lopez</surname> <given-names>J</given-names>
+</name>
+<name>
+<surname>Santoro</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Morosky</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Saraf</surname> <given-names>S</given-names>
+</name>
+<name>
+<surname>Piperdi</surname> <given-names>B</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Clinical Safety and Activity of Pembrolizumab in Patients With Malignant Pleural Mesothelioma (KEYNOTE-028): Preliminary Results From a Non-Randomised, Open-Label, Phase 1b Trial</article-title>. <source>Lancet Oncol</source> (<year>2017</year>) <volume>18</volume>:<page-range>623&#x2013;30</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/S1470-2045(17)30169-9</pub-id>
+</citation>
+</ref>
+<ref id="B5">
+<label>5</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Borcoman</surname> <given-names>E</given-names>
+</name>
+<name>
+<surname>Le Tourneau</surname> <given-names>C</given-names>
+</name>
+</person-group>. <article-title>Keynote-158 Study, FDA Granted Accelerated Approval of Pembrolizumab for the Treatment of Patients With Advanced PD-L1-Positive Cervical Cancer</article-title>. <source>Ann Transl Med</source> (<year>2020</year>) <volume>8</volume>:<fpage>1611</fpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.21037/atm-20-2656</pub-id>
+</citation>
+</ref>
+<ref id="B6">
+<label>6</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Vitale</surname> <given-names>I</given-names>
+</name>
+<name>
+<surname>Manic</surname> <given-names>G</given-names>
+</name>
+<name>
+<surname>Coussens</surname> <given-names>LM</given-names>
+</name>
+<name>
+<surname>Kroemer</surname> <given-names>G</given-names>
+</name>
+<name>
+<surname>Galluzzi</surname> <given-names>L</given-names>
+</name>
+</person-group>. <article-title>Macrophages and Metabolism in the Tumor Microenvironment</article-title>. <source>Cell Metab</source> (<year>2019</year>) <volume>30</volume>:<fpage>36</fpage>&#x2013;<lpage>50</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/j.cmet.2019.06.001</pub-id>
+</citation>
+</ref>
+<ref id="B7">
+<label>7</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Salmaninejad</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Valilou</surname> <given-names>SF</given-names>
+</name>
+<name>
+<surname>Soltani</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Ahmadi</surname> <given-names>S</given-names>
+</name>
+<name>
+<surname>Abarghan</surname> <given-names>YJ</given-names>
+</name>
+<name>
+<surname>Rosengren</surname> <given-names>RJ</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Tumor-Associated Macrophages: Role in Cancer Development and Therapeutic Implications</article-title>. <source>Cell Oncol (Dordr)</source> (<year>2019</year>) <volume>42</volume>:<fpage>591</fpage>&#x2013;<lpage>608</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1007/s13402-019-00453-z</pub-id>
+</citation>
+</ref>
+<ref id="B8">
+<label>8</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Cassetta</surname> <given-names>L</given-names>
+</name>
+<name>
+<surname>Fragkogianni</surname> <given-names>S</given-names>
+</name>
+<name>
+<surname>Sims</surname> <given-names>AH</given-names>
+</name>
+<name>
+<surname>Swierczak</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Forrester</surname> <given-names>LM</given-names>
+</name>
+<name>
+<surname>Zhang</surname> <given-names>H</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Human Tumor-Associated Macrophage and Monocyte Transcriptional Landscapes Reveal Cancer-Specific Reprogramming, Biomarkers, and Therapeutic Targets</article-title>. <source>Cancer Cell</source> (<year>2019</year>) <volume>35</volume>:<fpage>588</fpage>&#x2013;<lpage>602.e510</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/j.ccell.2019.02.009</pub-id>
+</citation>
+</ref>
+<ref id="B9">
+<label>9</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Chevrier</surname> <given-names>S</given-names>
+</name>
+<name>
+<surname>Levine</surname> <given-names>JH</given-names>
+</name>
+<name>
+<surname>Zanotelli</surname> <given-names>VRT</given-names>
+</name>
+<name>
+<surname>Silina</surname> <given-names>K</given-names>
+</name>
+<name>
+<surname>Schulz</surname> <given-names>D</given-names>
+</name>
+<name>
+<surname>Bacac</surname> <given-names>M</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>An Immune Atlas of Clear Cell Renal Cell Carcinoma</article-title>. <source>Cell</source> (<year>2017</year>) <volume>169</volume>:<fpage>736</fpage>&#x2013;<lpage>49.e718</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/j.cell.2017.04.016</pub-id>
+</citation>
+</ref>
+<ref id="B10">
+<label>10</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Zhang</surname> <given-names>L</given-names>
+</name>
+<name>
+<surname>Li</surname> <given-names>Z</given-names>
+</name>
+<name>
+<surname>Skrzypczynska</surname> <given-names>KM</given-names>
+</name>
+<name>
+<surname>Fang</surname> <given-names>Q</given-names>
+</name>
+<name>
+<surname>Zhang</surname> <given-names>W</given-names>
+</name>
+<name>
+<surname>O&#x2019;Brien</surname> <given-names>SA</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Single-Cell Analyses Inform Mechanisms of Myeloid-Targeted Therapies in Colon Cancer</article-title>. <source>Cell</source> (<year>2020</year>) <volume>181</volume>:<fpage>442</fpage>&#x2013;<lpage>59.e429</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/j.cell.2020.03.048</pub-id>
+</citation>
+</ref>
+<ref id="B11">
+<label>11</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Azizi</surname> <given-names>E</given-names>
+</name>
+<name>
+<surname>Carr</surname> <given-names>AJ</given-names>
+</name>
+<name>
+<surname>Plitas</surname> <given-names>G</given-names>
+</name>
+<name>
+<surname>Cornish</surname> <given-names>AE</given-names>
+</name>
+<name>
+<surname>Konopacki</surname> <given-names>C</given-names>
+</name>
+<name>
+<surname>Prabhakaran</surname> <given-names>S</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment</article-title>. <source>Cell</source> (<year>2018</year>) <volume>174</volume>:<fpage>1293</fpage>&#x2013;<lpage>308.e1236</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/j.cell.2018.05.060</pub-id>
+</citation>
+</ref>
+<ref id="B12">
+<label>12</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Lambrechts</surname> <given-names>D</given-names>
+</name>
+<name>
+<surname>Wauters</surname> <given-names>E</given-names>
+</name>
+<name>
+<surname>Boeckx</surname> <given-names>B</given-names>
+</name>
+<name>
+<surname>Aibar</surname> <given-names>S</given-names>
+</name>
+<name>
+<surname>Nittner</surname> <given-names>D</given-names>
+</name>
+<name>
+<surname>Burton</surname> <given-names>O</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Phenotype Molding of Stromal Cells in the Lung Tumor Microenvironment</article-title>. <source>Nat Med</source> (<year>2018</year>) <volume>24</volume>:<page-range>1277&#x2013;89</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1038/s41591-018-0096-5</pub-id>
+</citation>
+</ref>
+<ref id="B13">
+<label>13</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Cassetta</surname> <given-names>L</given-names>
+</name>
+<name>
+<surname>Pollard</surname> <given-names>JW</given-names>
+</name>
+</person-group>. <article-title>Targeting Macrophages: Therapeutic Approaches in&#xa0;Cancer</article-title>. <source>Nat Rev Drug Discov</source> (<year>2018</year>) <volume>17</volume>:<fpage>887</fpage>&#x2013;<lpage>904</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1038/nrd.2018.169</pub-id>
+</citation>
+</ref>
+<ref id="B14">
+<label>14</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Liu</surname> <given-names>Y</given-names>
+</name>
+<name>
+<surname>Li</surname> <given-names>L</given-names>
+</name>
+<name>
+<surname>Li</surname> <given-names>Y</given-names>
+</name>
+<name>
+<surname>Zhao</surname> <given-names>X</given-names>
+</name>
+</person-group>. <article-title>Research Progress on Tumor-Associated Macrophages and Inflammation in Cervical Cancer</article-title>. <source>BioMed Res Int</source> (<year>2020</year>) <volume>2020</volume>:<elocation-id>6842963</elocation-id>. doi:&#xa0;<pub-id pub-id-type="doi">10.1155/2020/6842963</pub-id>
+</citation>
+</ref>
+<ref id="B15">
+<label>15</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ding</surname> <given-names>H</given-names>
+</name>
+<name>
+<surname>Cai</surname> <given-names>J</given-names>
+</name>
+<name>
+<surname>Mao</surname> <given-names>M</given-names>
+</name>
+<name>
+<surname>Fang</surname> <given-names>Y</given-names>
+</name>
+<name>
+<surname>Huang</surname> <given-names>Z</given-names>
+</name>
+<name>
+<surname>Jia</surname> <given-names>J</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Tumor-Associated Macrophages Induce Lymphangiogenesis in Cervical Cancer <italic>via</italic> Interaction With Tumor Cells</article-title>. <source>APMIS</source> (<year>2014</year>) <volume>122</volume>:<page-range>1059&#x2013;69</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1111/apm.12257</pub-id>
+</citation>
+</ref>
+<ref id="B16">
+<label>16</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Yost</surname> <given-names>KE</given-names>
+</name>
+<name>
+<surname>Satpathy</surname> <given-names>AT</given-names>
+</name>
+<name>
+<surname>Wells</surname> <given-names>DK</given-names>
+</name>
+<name>
+<surname>Qi</surname> <given-names>Y</given-names>
+</name>
+<name>
+<surname>Wang</surname> <given-names>C</given-names>
+</name>
+<name>
+<surname>Kageyama</surname> <given-names>R</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Clonal Replacement of Tumor-Specific T Cells Following PD-1 Blockade</article-title>. <source>Nat Med</source> (<year>2019</year>) <volume>25</volume>:<page-range>1251&#x2013;9</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1038/s41591-019-0522-3</pub-id>
+</citation>
+</ref>
+<ref id="B17">
+<label>17</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Sturm</surname> <given-names>G</given-names>
+</name>
+<name>
+<surname>Finotello</surname> <given-names>F</given-names>
+</name>
+<name>
+<surname>Petitprez</surname> <given-names>F</given-names>
+</name>
+<name>
+<surname>Zhang</surname> <given-names>JD</given-names>
+</name>
+<name>
+<surname>Baumbach</surname> <given-names>J</given-names>
+</name>
+<name>
+<surname>Fridman</surname> <given-names>WH</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Comprehensive Evaluation of Transcriptome-Based Cell-Type Quantification Methods for Immuno-Oncology</article-title>. <source>Bioinformatics</source> (<year>2019</year>) <volume>35</volume>:<page-range>i436&#x2013;45</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1093/bioinformatics/btz363</pub-id>
+</citation>
+</ref>
+<ref id="B18">
+<label>18</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Thorsson</surname> <given-names>V</given-names>
+</name>
+<name>
+<surname>Gibbs</surname> <given-names>DL</given-names>
+</name>
+<name>
+<surname>Brown</surname> <given-names>SD</given-names>
+</name>
+<name>
+<surname>Wolf</surname> <given-names>D</given-names>
+</name>
+<name>
+<surname>Bortone</surname> <given-names>DS</given-names>
+</name>
+<name>
+<surname>Ou Yang</surname> <given-names>TH</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>The Immune Landscape of Cancer</article-title>. <source>Immunity</source> (<year>2018</year>) <volume>48</volume>:<fpage>812</fpage>&#x2013;<lpage>30.e814</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/j.immuni.2018.03.023</pub-id>
+</citation>
+</ref>
+<ref id="B19">
+<label>19</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Butler</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Hoffman</surname> <given-names>P</given-names>
+</name>
+<name>
+<surname>Smibert</surname> <given-names>P</given-names>
+</name>
+<name>
+<surname>Papalexi</surname> <given-names>E</given-names>
+</name>
+<name>
+<surname>Satija</surname> <given-names>R</given-names>
+</name>
+</person-group>. <article-title>Integrating Single-Cell Transcriptomic Data Across Different Conditions, Technologies, and Species</article-title>. <source>Nat Biotechnol</source> (<year>2018</year>) <volume>36</volume>:<page-range>411&#x2013;20</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1038/nbt.4096</pub-id>
+</citation>
+</ref>
+<ref id="B20">
+<label>20</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gu</surname> <given-names>Z</given-names>
+</name>
+<name>
+<surname>Eils</surname> <given-names>R</given-names>
+</name>
+<name>
+<surname>Schlesner</surname> <given-names>M</given-names>
+</name>
+</person-group>. <article-title>Complex Heatmaps Reveal Patterns and Correlations in Multidimensional Genomic Data</article-title>. <source>Bioinformatics</source> (<year>2016</year>) <volume>32</volume>:<page-range>2847&#x2013;9</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1093/bioinformatics/btw313</pub-id>
+</citation>
+</ref>
+<ref id="B21">
+<label>21</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Jiang</surname> <given-names>P</given-names>
+</name>
+<name>
+<surname>Gu</surname> <given-names>S</given-names>
+</name>
+<name>
+<surname>Pan</surname> <given-names>D</given-names>
+</name>
+<name>
+<surname>Fu</surname> <given-names>J</given-names>
+</name>
+<name>
+<surname>Sahu</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Hu</surname> <given-names>X</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Signatures of T Cell Dysfunction and Exclusion Predict Cancer Immunotherapy Response</article-title>. <source>Nat Med</source> (<year>2018</year>) <volume>24</volume>:<page-range>1550&#x2013;8</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1038/s41591-018-0136-1</pub-id>
+</citation>
+</ref>
+<ref id="B22">
+<label>22</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Yu</surname> <given-names>G</given-names>
+</name>
+<name>
+<surname>Wang</surname> <given-names>LG</given-names>
+</name>
+<name>
+<surname>Han</surname> <given-names>Y</given-names>
+</name>
+<name>
+<surname>He</surname> <given-names>QY</given-names>
+</name>
+</person-group>. <article-title>Clusterprofiler: An R Package for Comparing Biological Themes Among Gene Clusters</article-title>. <source>Omics</source> (<year>2012</year>) <volume>16</volume>:<page-range>284&#x2013;7</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1089/omi.2011.0118</pub-id>
+</citation>
+</ref>
+<ref id="B23">
+<label>23</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Maleki Vareki</surname> <given-names>S</given-names>
+</name>
+</person-group>. <article-title>High and Low Mutational Burden Tumors Versus Immunologically Hot and Cold Tumors and Response to Immune Checkpoint Inhibitors</article-title>. <source>J Immunother Cancer</source> (<year>2018</year>) <volume>6</volume>:<fpage>157</fpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1186/s40425-018-0479-7</pub-id>
+</citation>
+</ref>
+<ref id="B24">
+<label>24</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Chan</surname> <given-names>TA</given-names>
+</name>
+<name>
+<surname>Yarchoan</surname> <given-names>M</given-names>
+</name>
+<name>
+<surname>Jaffee</surname> <given-names>E</given-names>
+</name>
+<name>
+<surname>Swanton</surname> <given-names>C</given-names>
+</name>
+<name>
+<surname>Quezada</surname> <given-names>SA</given-names>
+</name>
+<name>
+<surname>Stenzinger</surname> <given-names>A</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Development of Tumor Mutation Burden as an Immunotherapy Biomarker: Utility for the Oncology Clinic</article-title>. <source>Ann Oncol</source> (<year>2019</year>) <volume>30</volume>:<fpage>44</fpage>&#x2013;<lpage>56</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1093/annonc/mdy495</pub-id>
+</citation>
+</ref>
+<ref id="B25">
+<label>25</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Cabel</surname> <given-names>L</given-names>
+</name>
+<name>
+<surname>Proudhon</surname> <given-names>C</given-names>
+</name>
+<name>
+<surname>Romano</surname> <given-names>E</given-names>
+</name>
+<name>
+<surname>Girard</surname> <given-names>N</given-names>
+</name>
+<name>
+<surname>Lantz</surname> <given-names>O</given-names>
+</name>
+<name>
+<surname>Stern</surname> <given-names>MH</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Clinical Potential of Circulating Tumour DNA in Patients Receiving Anticancer Immunotherapy</article-title>. <source>Nat Rev Clin Oncol</source> (<year>2018</year>) <volume>15</volume>:<page-range>639&#x2013;50</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1038/s41571-018-0074-3</pub-id>
+</citation>
+</ref>
+<ref id="B26">
+<label>26</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Dudley</surname> <given-names>JC</given-names>
+</name>
+<name>
+<surname>Lin</surname> <given-names>MT</given-names>
+</name>
+<name>
+<surname>Le</surname> <given-names>DT</given-names>
+</name>
+<name>
+<surname>Eshleman</surname> <given-names>JR</given-names>
+</name>
+</person-group>. <article-title>Microsatellite Instability as a Biomarker for PD-1 Blockade</article-title>. <source>Clin Cancer Res</source> (<year>2016</year>) <volume>22</volume>:<page-range>813&#x2013;20</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1158/1078-0432.CCR-15-1678</pub-id>
+</citation>
+</ref>
+<ref id="B27">
+<label>27</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Giannakis</surname> <given-names>M</given-names>
+</name>
+<name>
+<surname>Mu</surname> <given-names>XJ</given-names>
+</name>
+<name>
+<surname>Shukla</surname> <given-names>SA</given-names>
+</name>
+<name>
+<surname>Qian</surname> <given-names>ZR</given-names>
+</name>
+<name>
+<surname>Cohen</surname> <given-names>O</given-names>
+</name>
+<name>
+<surname>Nishihara</surname> <given-names>R</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Genomic Correlates of Immune-Cell Infiltrates in Colorectal Carcinoma</article-title>. <source>Cell Rep</source> (<year>2016</year>) <volume>15</volume>:<page-range>857&#x2013;65</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/j.celrep.2016.03.075</pub-id>
+</citation>
+</ref>
+<ref id="B28">
+<label>28</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Llosa</surname> <given-names>NJ</given-names>
+</name>
+<name>
+<surname>Cruise</surname> <given-names>M</given-names>
+</name>
+<name>
+<surname>Tam</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Wicks</surname> <given-names>EC</given-names>
+</name>
+<name>
+<surname>Hechenbleikner</surname> <given-names>EM</given-names>
+</name>
+<name>
+<surname>Taube</surname> <given-names>JM</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>The Vigorous Immune Microenvironment of Microsatellite Instable Colon Cancer Is Balanced by Multiple Counter-Inhibitory Checkpoints</article-title>. <source>Cancer Discov</source> (<year>2015</year>) <volume>5</volume>:<fpage>43</fpage>&#x2013;<lpage>51</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1158/2159-8290.CD-14-0863</pub-id>
+</citation>
+</ref>
+<ref id="B29">
+<label>29</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Wong</surname> <given-names>YF</given-names>
+</name>
+<name>
+<surname>Cheung</surname> <given-names>TH</given-names>
+</name>
+<name>
+<surname>Poon</surname> <given-names>KY</given-names>
+</name>
+<name>
+<surname>Wang</surname> <given-names>VW</given-names>
+</name>
+<name>
+<surname>Li</surname> <given-names>JC</given-names>
+</name>
+<name>
+<surname>Lo</surname> <given-names>KW</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>The Role of Microsatellite Instability in Cervical Intraepithelial Neoplasia and Squamous Cell Carcinoma of the Cervix</article-title>. <source>Gynecol Oncol</source> (<year>2003</year>) <volume>89</volume>:<page-range>434&#x2013;9</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/s0090-8258(03)00134-3</pub-id>
+</citation>
+</ref>
+<ref id="B30">
+<label>30</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Litchfield</surname> <given-names>K</given-names>
+</name>
+<name>
+<surname>Reading</surname> <given-names>JL</given-names>
+</name>
+<name>
+<surname>Puttick</surname> <given-names>C</given-names>
+</name>
+<name>
+<surname>Thakkar</surname> <given-names>K</given-names>
+</name>
+<name>
+<surname>Abbosh</surname> <given-names>C</given-names>
+</name>
+<name>
+<surname>Bentham</surname> <given-names>R</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Meta-Analysis of Tumor- and T Cell-Intrinsic Mechanisms of Sensitization to Checkpoint Inhibition</article-title>. <source>Cell</source> (<year>2021</year>) <volume>84</volume>(<issue>3</issue>):<page-range>596&#x2013;614.e14</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/j.cell.2021.01.002</pub-id>
+</citation>
+</ref>
+<ref id="B31">
+<label>31</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Topalian</surname> <given-names>SL</given-names>
+</name>
+<name>
+<surname>Taube</surname> <given-names>JM</given-names>
+</name>
+<name>
+<surname>Pardoll</surname> <given-names>DM</given-names>
+</name>
+</person-group>. <article-title>Neoadjuvant Checkpoint Blockade for Cancer Immunotherapy</article-title>. <source>Science</source> (<year>2020</year>) <volume>367</volume>(<issue>6477</issue>):<elocation-id>eaax0182</elocation-id>. doi:&#xa0;<pub-id pub-id-type="doi">10.1126/science.aax0182</pub-id>
+</citation>
+</ref>
+<ref id="B32">
+<label>32</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Gagliardi</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Porter</surname> <given-names>VL</given-names>
+</name>
+<name>
+<surname>Zong</surname> <given-names>Z</given-names>
+</name>
+<name>
+<surname>Bowlby</surname> <given-names>R</given-names>
+</name>
+<name>
+<surname>Titmuss</surname> <given-names>E</given-names>
+</name>
+<name>
+<surname>Namirembe</surname> <given-names>C</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Analysis of Ugandan Cervical Carcinomas Identifies Human Papillomavirus Clade-Specific Epigenome and Transcriptome Landscapes</article-title>. <source>Nat Genet</source> (<year>2020</year>) <volume>52</volume>:<page-range>800&#x2013;10</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1038/s41588-020-0673-7</pub-id>
+</citation>
+</ref>
+<ref id="B33">
+<label>33</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Hu</surname> <given-names>Z</given-names>
+</name>
+<name>
+<surname>Zhu</surname> <given-names>D</given-names>
+</name>
+<name>
+<surname>Wang</surname> <given-names>W</given-names>
+</name>
+<name>
+<surname>Li</surname> <given-names>W</given-names>
+</name>
+<name>
+<surname>Jia</surname> <given-names>W</given-names>
+</name>
+<name>
+<surname>Zeng</surname> <given-names>X</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Genome-Wide Profiling of HPV Integration in Cervical Cancer Identifies Clustered Genomic Hot Spots and a Potential Microhomology-Mediated Integration Mechanism</article-title>. <source>Nat Genet</source> (<year>2015</year>) <volume>47</volume>:<page-range>158&#x2013;63</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1038/ng.3178</pub-id>
+</citation>
+</ref>
+<ref id="B34">
+<label>34</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Guo</surname> <given-names>L</given-names>
+</name>
+<name>
+<surname>Hua</surname> <given-names>K</given-names>
+</name>
+</person-group>. <article-title>Cervical Cancer: Emerging Immune Landscape and Treatment</article-title>. <source>Onco Targets Ther</source> (<year>2020</year>) <volume>13</volume>:<page-range>8037&#x2013;47</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.2147/OTT.S264312</pub-id>
+</citation>
+</ref>
+<ref id="B35">
+<label>35</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Burd</surname> <given-names>EM</given-names>
+</name>
+</person-group>. <article-title>Human Papillomavirus and Cervical Cancer</article-title>. <source>Clin Microbiol Rev</source> (<year>2003</year>) <volume>16</volume>:<fpage>1</fpage>&#x2013;<lpage>17</lpage>. doi:&#xa0;<pub-id pub-id-type="doi">10.1128/cmr.16.1.1-17.2003</pub-id>
+</citation>
+</ref>
+<ref id="B36">
+<label>36</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Hammes</surname> <given-names>LS</given-names>
+</name>
+<name>
+<surname>Tekmal</surname> <given-names>RR</given-names>
+</name>
+<name>
+<surname>Naud</surname> <given-names>P</given-names>
+</name>
+<name>
+<surname>Edelweiss</surname> <given-names>MI</given-names>
+</name>
+<name>
+<surname>Kirma</surname> <given-names>N</given-names>
+</name>
+<name>
+<surname>Valente</surname> <given-names>PT</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Macrophages, Inflammation and Risk of Cervical Intraepithelial Neoplasia (CIN) Progression&#x2013;Clinicopathological Correlation</article-title>. <source>Gynecol Oncol</source> (<year>2007</year>) <volume>105</volume>:<page-range>157&#x2013;65</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/j.ygyno.2006.11.023</pub-id>
+</citation>
+</ref>
+<ref id="B37">
+<label>37</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Ott</surname> <given-names>PA</given-names>
+</name>
+<name>
+<surname>Bang</surname> <given-names>YJ</given-names>
+</name>
+<name>
+<surname>Piha-Paul</surname> <given-names>SA</given-names>
+</name>
+<name>
+<surname>Razak</surname> <given-names>ARA</given-names>
+</name>
+<name>
+<surname>Bennouna</surname> <given-names>J</given-names>
+</name>
+<name>
+<surname>Soria</surname> <given-names>JC</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>T-Cell-Inflamed Gene-Expression Profile, Programmed Death Ligand 1 Expression, and Tumor Mutational Burden Predict Efficacy in Patients Treated With Pembrolizumab Across 20 Cancers: KEYNOTE-028</article-title>. <source>J Clin Oncol</source> (<year>2019</year>) <volume>37</volume>:<page-range>318&#x2013;27</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1200/JCO.2018.78.2276</pub-id>
+</citation>
+</ref>
+<ref id="B38">
+<label>38</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Kagabu</surname> <given-names>M</given-names>
+</name>
+<name>
+<surname>Nagasawa</surname> <given-names>T</given-names>
+</name>
+<name>
+<surname>Sato</surname> <given-names>C</given-names>
+</name>
+<name>
+<surname>Fukagawa</surname> <given-names>Y</given-names>
+</name>
+<name>
+<surname>Kawamura</surname> <given-names>H</given-names>
+</name>
+<name>
+<surname>Tomabechi</surname> <given-names>H</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Immunotherapy for Uterine Cervical Cancer Using Checkpoint Inhibitors: Future Directions</article-title>. <source>Int J Mol Sci</source> (<year>2020</year>) <volume>21</volume>:<page-range>2335</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.3390/ijms21072335</pub-id>
+</citation>
+</ref>
+<ref id="B39">
+<label>39</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Frenel</surname> <given-names>JS</given-names>
+</name>
+<name>
+<surname>Le Tourneau</surname> <given-names>C</given-names>
+</name>
+<name>
+<surname>O&#x2019;Neil</surname> <given-names>B</given-names>
+</name>
+<name>
+<surname>Ott</surname> <given-names>PA</given-names>
+</name>
+<name>
+<surname>Piha-Paul</surname> <given-names>SA</given-names>
+</name>
+<name>
+<surname>Gomez-Roca</surname> <given-names>C</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Safety and Efficacy of Pembrolizumab in Advanced, Programmed Death Ligand 1-Positive Cervical Cancer: Results From the Phase Ib KEYNOTE-028 Trial</article-title>. <source>J Clin Oncol</source> (<year>2017</year>) <volume>35</volume>:<page-range>4035&#x2013;41</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1200/JCO.2017.74.5471</pub-id>
+</citation>
+</ref>
+<ref id="B40">
+<label>40</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Chung</surname> <given-names>HC</given-names>
+</name>
+<name>
+<surname>Ros</surname> <given-names>W</given-names>
+</name>
+<name>
+<surname>Delord</surname> <given-names>JP</given-names>
+</name>
+<name>
+<surname>Perets</surname> <given-names>R</given-names>
+</name>
+<name>
+<surname>Italiano</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Shapira-Frommer</surname> <given-names>R</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Efficacy and Safety of Pembrolizumab in Previously Treated Advanced Cervical Cancer: Results From the Phase II KEYNOTE-158 Study</article-title>. <source>J Clin Oncol</source> (<year>2019</year>) <volume>37</volume>:<page-range>1470&#x2013;8</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1200/JCO.18.01265</pub-id>
+</citation>
+</ref>
+<ref id="B41">
+<label>41</label>
+<citation citation-type="journal">
+<person-group person-group-type="author">
+<name>
+<surname>Bi</surname> <given-names>K</given-names>
+</name>
+<name>
+<surname>He</surname> <given-names>MX</given-names>
+</name>
+<name>
+<surname>Bakouny</surname> <given-names>Z</given-names>
+</name>
+<name>
+<surname>Kanodia</surname> <given-names>A</given-names>
+</name>
+<name>
+<surname>Napolitano</surname> <given-names>S</given-names>
+</name>
+<name>
+<surname>Wu</surname> <given-names>J</given-names>
+</name>
+<etal/>
+</person-group>. <article-title>Tumor and Immune Reprogramming During Immunotherapy in Advanced Renal Cell Carcinoma</article-title>. <source>Cancer Cell</source> (<year>2021</year>) <volume>39</volume>(<issue>5</issue>):<page-range>649&#x2013;61.e5</page-range>. doi:&#xa0;<pub-id pub-id-type="doi">10.1016/j.ccell.2021.02.015</pub-id>
+</citation>
+</ref>
+</ref-list>
+</back>
+</article>

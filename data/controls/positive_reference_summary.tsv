@@ -1,0 +1,8 @@
+method	attempted_pairs	evaluable_pairs	nominal_positive	bh_positive
+equal_r_t	4	4	4	4
+mundlak	4	4	4	4
+pooled_pearson	4	4	4	4
+pooled_spearman	4	4	4	4
+pseudobulk	4	4	4	4
+reml_hksj	4	4	4	4
+patient_EB	4	0		

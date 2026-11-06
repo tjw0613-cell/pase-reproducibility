@@ -1,0 +1,4 @@
+setting	attempted	reported	nominal_calls	call_per_attempt	all_attempt_ci_low	all_attempt_ci_high	call_per_report	conditional_ci_low	conditional_ci_high	unavailable_reasons
+global_null	12	8	0	0.0	0.0	0.2646484693970512	0.0	0.0	0.36941664755281917	"{""numerical_diagnostic_failed"": 4}"
+fixed_positive	12	10	10	0.8333333333333334	0.5158622513140328	0.9791374745399076	1.0	0.6915028921812392	1.0	"{""numerical_diagnostic_failed"": 2}"
+heterogeneous_positive	12	11	6	0.5	0.21094463823929666	0.7890553617607033	0.5454545454545454	0.23379359765934518	0.8325119059362929	"{""numerical_diagnostic_failed"": 1}"

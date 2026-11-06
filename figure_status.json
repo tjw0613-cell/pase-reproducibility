@@ -1,0 +1,22 @@
+{
+  "fig1": {
+    "status": "ready_from_saved_results"
+  },
+  "fig2": {
+    "status": "ready_from_saved_results"
+  },
+  "fig3": {
+    "status": "not_available",
+    "reason": "The unified negative-binomial protocol has not been publicly archived and formal simulation results have not been produced. Historical Gaussian/count pilots cannot substitute for those results."
+  },
+  "fig4": {
+    "status": "not_available",
+    "reason": "The unified negative-binomial protocol has not been publicly archived and formal simulation results have not been produced. Historical Gaussian/count pilots cannot substitute for those results."
+  },
+  "fig5": {
+    "status": "ready_from_saved_results"
+  },
+  "fig6": {
+    "status": "ready_from_saved_results"
+  }
+}

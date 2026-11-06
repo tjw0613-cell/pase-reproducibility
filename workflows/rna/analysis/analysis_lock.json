@@ -1,0 +1,48 @@
+{
+  "locked_utc": "2026-11-06T00:53:32.580720+00:00",
+  "published_genes": [
+    "SPP1",
+    "PCSK5",
+    "SLC11A1",
+    "VCAN",
+    "SLC25A37",
+    "FLNA",
+    "UPP1",
+    "BCL6",
+    "AQP9",
+    "TIMP1",
+    "VEGFA",
+    "ADM",
+    "MARCO",
+    "FN1",
+    "IL1RN"
+  ],
+  "retained_genes": [
+    "SPP1",
+    "PCSK5",
+    "SLC11A1",
+    "VCAN",
+    "SLC25A37",
+    "FLNA",
+    "UPP1",
+    "BCL6",
+    "AQP9",
+    "TIMP1",
+    "VEGFA",
+    "ADM",
+    "MARCO",
+    "FN1",
+    "IL1RN"
+  ],
+  "signature_sha256": "78e84663d8dee89838a146cd1e71225f769879df3ddb700418cd53a71a5e0a0a",
+  "axis_audit_sha256": "c2c60a52bc34e831de1d93038d860eb9aa6b4e596596cb7a63785850d94e40dc",
+  "files": {
+    "analyse.py": "c8b593fd4756024e76247b8a9eb0502ad17d270708b4a01b87d0141816a2f1e0",
+    "extract.py": "567e1e74ac9c5803556702ae1a70d73f2b320ad71f45e70820ba0750fccbb6dc",
+    "PLAN.md": "88b79a3acaa1c728c1386561ae37c2d77558f2db020c68bb627384560a40d21e",
+    "expected_raw_sha256.json": "dc7a2f56fbbe286f2c68505913ebbafe84110862a264615d52544b3c476179a2",
+    "vendor/pase_weighted.py": "cd3ecdbb65ff697320c84c6b3e4e590c39a36d56ca74e16dcfe92d0af3724164",
+    "vendor/external_core.py": "73d0b6c8d92d653940de396dc84d407207123401297d226063676e3945563c2a"
+  },
+  "interpretation": "local revision-stage endpoint lock before outcome fitting"
+}

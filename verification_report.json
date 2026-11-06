@@ -1,0 +1,246 @@
+{
+  "checked_utc": "2026-11-06T04:09:44.715755+00:00",
+  "system": "Windows",
+  "python": "3.13.7",
+  "dependencies": {
+    "matplotlib": "3.11.0",
+    "numpy": "2.4.6",
+    "Pillow": "12.2.0",
+    "reportlab": "5.0.0",
+    "pypdfium2": "5.14.0"
+  },
+  "scope": "Source checks and figure reconstruction in a relocated directory; no raw cohort extraction or formal count simulation.",
+  "formal_figures_3_4": "not_available",
+  "commands": [
+    {
+      "arguments": [
+        "RELOCATED_REPOSITORY\\reproduce.py",
+        "verify"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"verified\", \"files\": 32}",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_all_pinned_sources_and_frozen_analysis_sources (test_reproduction.ReproductionTests.test_all_pinned_sources_and_frozen_analysis_sources) ... ok\ntest_archive_extraction_and_traversal_rejection (test_reproduction.ReproductionTests.test_archive_extraction_and_traversal_rejection) ... ok\ntest_missing_formal_results_do_not_create_plots (test_reproduction.ReproductionTests.test_missing_formal_results_do_not_create_plots) ... ok\ntest_tamper_is_rejected (test_reproduction.ReproductionTests.test_tamper_is_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.225s\n\nOK"
+    },
+    {
+      "arguments": [
+        "RELOCATED_REPOSITORY\\reproduce.py",
+        "all-ready"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"figure\": 1, \"output_dir\": \"RELOCATED_REPOSITORY\\\\outputs\", \"files\": [\"Figure_1_Patient_anchored_framework.pdf\", \"Figure_1_Patient_anchored_framework.png\", \"Figure_1_Patient_anchored_framework.tiff\"]}\n{\"figure\": 2, \"output_dir\": \"RELOCATED_REPOSITORY\\\\outputs\", \"files\": [\"Figure_2_Donor_dependence_and_influence.pdf\", \"Figure_2_Donor_dependence_and_influence.png\", \"Figure_2_Donor_dependence_and_influence.tiff\"]}\n{\"figure\": 5, \"output_dir\": \"RELOCATED_REPOSITORY\\\\outputs\", \"files\": [\"Figure_5_Method_benchmarks.pdf\", \"Figure_5_Method_benchmarks.png\", \"Figure_5_Method_benchmarks.tiff\"]}\n{\"outputs\": [\"Figure_6_Biological_demonstration_and_reporting.pdf\", \"Figure_6_Biological_demonstration_and_reporting.png\", \"Figure_6_Biological_demonstration_and_reporting.svg\", \"Figure_6_Biological_demonstration_and_reporting.tiff\"], \"outside_canvas_text\": []}",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "RELOCATED_REPOSITORY\\reproduce.py",
+        "fig3"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "FIG3: NOT AVAILABLE. The unified negative-binomial protocol has not been publicly archived and formal simulation results have not been produced. Historical Gaussian/count pilots cannot substitute for those results.\nNo figure was created. See FORMAL_SIMULATION.md for the required evidence."
+    },
+    {
+      "arguments": [
+        "RELOCATED_REPOSITORY\\reproduce.py",
+        "fig4"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "FIG4: NOT AVAILABLE. The unified negative-binomial protocol has not been publicly archived and formal simulation results have not been produced. Historical Gaussian/count pilots cannot substitute for those results.\nNo figure was created. See FORMAL_SIMULATION.md for the required evidence."
+    },
+    {
+      "arguments": [
+        "workflows/rna/signature/verify_signature.py"
+      ],
+      "exit_code": 0,
+      "stdout": "Verified 15 source markers; gene-list SHA-256 78e84663d8dee89838a146cd1e71225f769879df3ddb700418cd53a71a5e0a0a.",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "workflows/rna/synthesis/pool.py",
+        "--cohorts",
+        "data/biology/cohort_estimates.tsv",
+        "--out",
+        "outputs/pool_check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "arguments": [
+        "workflows/rna/compare_results.py",
+        "--analysis",
+        "data/biology",
+        "--pooled",
+        "outputs/pool_check"
+      ],
+      "exit_code": 0,
+      "stdout": "Verified cohort_estimates.tsv: 34 rows; numerical atol=1e-9, rtol=1e-7.\nVerified pooling_influence.tsv: 88 rows; numerical atol=1e-9, rtol=1e-7.\nVerified pooled.tsv: 2 rows; numerical atol=1e-9, rtol=1e-7.",
+      "stderr": ""
+    }
+  ],
+  "figures": [
+    {
+      "name": "Figure_1_Patient_anchored_framework",
+      "files": [
+        {
+          "name": "Figure_1_Patient_anchored_framework.png",
+          "sha256": "240add8d69b96d9cde4ec6f06c595d8b593f72c3211f17ad325f4321a7d6d293",
+          "pixels": [
+            1950,
+            2234
+          ],
+          "dpi": [
+            299.9994,
+            299.9994
+          ],
+          "matches_local_raster": true
+        },
+        {
+          "name": "Figure_1_Patient_anchored_framework.tiff",
+          "sha256": "ba735def3370921cd0e27174a7a4eae95e1d689aba60fe0a85706655c4f98020",
+          "pixels": [
+            3900,
+            4467
+          ],
+          "dpi": [
+            600.0,
+            600.0
+          ],
+          "matches_local_raster": true
+        }
+      ],
+      "pdf_points": [
+        468.0,
+        536.0
+      ]
+    },
+    {
+      "name": "Figure_2_Donor_dependence_and_influence",
+      "files": [
+        {
+          "name": "Figure_2_Donor_dependence_and_influence.png",
+          "sha256": "ada78191a716e491fe718a6831b54dcc34495af00e1aa634ccb0096f4c437830",
+          "pixels": [
+            1950,
+            1950
+          ],
+          "dpi": [
+            299.9994,
+            299.9994
+          ],
+          "matches_local_raster": true
+        },
+        {
+          "name": "Figure_2_Donor_dependence_and_influence.tiff",
+          "sha256": "280b4bc094d01778a8adbb314ab3f145091fcb7eebcc18304fdb63e43c50df02",
+          "pixels": [
+            3900,
+            3900
+          ],
+          "dpi": [
+            600.0,
+            600.0
+          ],
+          "matches_local_raster": true
+        }
+      ],
+      "pdf_points": [
+        468.0,
+        468.0
+      ]
+    },
+    {
+      "name": "Figure_5_Method_benchmarks",
+      "files": [
+        {
+          "name": "Figure_5_Method_benchmarks.png",
+          "sha256": "7fb1d75185140697e7d6583820e246824fa00af42708cbc7f0ccfb9bc934e028",
+          "pixels": [
+            1950,
+            2134
+          ],
+          "dpi": [
+            299.9994,
+            299.9994
+          ],
+          "matches_local_raster": true
+        },
+        {
+          "name": "Figure_5_Method_benchmarks.tiff",
+          "sha256": "4453ed72976df901b2c6dd0f2653a6d90790e9fbb8e0069737856cc64a3b487e",
+          "pixels": [
+            3900,
+            4267
+          ],
+          "dpi": [
+            600.0,
+            600.0
+          ],
+          "matches_local_raster": true
+        }
+      ],
+      "pdf_points": [
+        468.0,
+        512.0
+      ]
+    },
+    {
+      "name": "Figure_6_Biological_demonstration_and_reporting",
+      "files": [
+        {
+          "name": "Figure_6_Biological_demonstration_and_reporting.png",
+          "sha256": "8464e402cb9eeaefb055c8ee107bd9092fc266acf89e5dc12bad4c4f2562bb69",
+          "pixels": [
+            1950,
+            2280
+          ],
+          "dpi": [
+            299.9994,
+            299.9994
+          ],
+          "matches_local_raster": true
+        },
+        {
+          "name": "Figure_6_Biological_demonstration_and_reporting.tiff",
+          "sha256": "21d22a0ad17ee8fcd34f061356b456bf3f69048a2546e6eb49234c63033029e9",
+          "pixels": [
+            3900,
+            4560
+          ],
+          "dpi": [
+            600.0,
+            600.0
+          ],
+          "matches_local_raster": true
+        }
+      ],
+      "pdf_points": [
+        468.0,
+        547.2000122070312
+      ]
+    }
+  ],
+  "status": "passed",
+  "not_tested": [
+    "Linux/macOS execution",
+    "fresh full raw-cohort extraction and fitting",
+    "new external-method benchmarking",
+    "formal unified negative-binomial simulation"
+  ]
+}

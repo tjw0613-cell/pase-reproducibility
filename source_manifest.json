@@ -1,0 +1,166 @@
+{
+  "schema": "pase.reproduction.inputs.v1",
+  "scope": "Exact saved aggregate results plus frozen RNA extraction/analysis sources and public signature documentation. Raw expression matrices are obtained separately from GEO.",
+  "files": [
+    {
+      "path": "data/biology/cohort_estimates.tsv",
+      "bytes": 6223,
+      "sha256": "6e2d83cc1b6abbf42953dd13dd0027d5da66d0d56a5da259371a0b7b1c0450e9"
+    },
+    {
+      "path": "data/biology/pooled.tsv",
+      "bytes": 607,
+      "sha256": "6de76197450b3e34895f14508a23a3b8cef767dc34d10a45c360fa1e82dcf030"
+    },
+    {
+      "path": "data/biology/pooling_influence.tsv",
+      "bytes": 12302,
+      "sha256": "2df4b5e53adcc8bdc6ee5a1f79a784779ad823be77ab79a555a133877a696909"
+    },
+    {
+      "path": "data/controls/memento_tests.tsv",
+      "bytes": 1812,
+      "sha256": "e4e32a5a14cc73ca7929dcc4cfaa0f14f17310b463ffb9debb9e2d59898b748e"
+    },
+    {
+      "path": "data/controls/positive_reference_summary.tsv",
+      "bytes": 203,
+      "sha256": "ddaa9d9cea5c6aa03ee8ab7933ea57a1e53e345432558842071a736d45d77a1c"
+    },
+    {
+      "path": "data/controls/sc_C1QA_C1QB.csv",
+      "bytes": 296,
+      "sha256": "d3c907806d1f2f350cea85f831b6c953d62055af00b61447ba6886d68448d44e"
+    },
+    {
+      "path": "data/controls/sc_HLA-DRA_CD74.csv",
+      "bytes": 300,
+      "sha256": "3cc88c73b41a0569980023a4a50064aeb23a39ac05aee07880ae178c6e1e0e73"
+    },
+    {
+      "path": "data/controls/sc_MS4A7_CD14.csv",
+      "bytes": 295,
+      "sha256": "980298373ad629252913082822e2db3084f380a8ca3cb0cca64b836924e89a15"
+    },
+    {
+      "path": "data/controls/sc_RPLP0_RPL13A.csv",
+      "bytes": 300,
+      "sha256": "f79c038accc2120db09854c1d3c24a621750c9d9bf9304da5cc9f8c7fd21a582"
+    },
+    {
+      "path": "data/controls/shuffle_summary.tsv",
+      "bytes": 3282,
+      "sha256": "7404a0ae0bf21da44679970e2e72a444b815506ad69594b63d8fd59134046885"
+    },
+    {
+      "path": "data/count_pilot/sc_summary.tsv",
+      "bytes": 607,
+      "sha256": "405825c59c2804dd74bcf3526b423ca235072f9b9b6badefca01a061b651cfde"
+    },
+    {
+      "path": "data/count_pilot/summary.tsv",
+      "bytes": 1393,
+      "sha256": "ee5e76fe1aacf33a56b4583bbc09832345e43a094dc4ff87109a81019bbc3e12"
+    },
+    {
+      "path": "data/gaussian/comparison.csv",
+      "bytes": 5813,
+      "sha256": "e254f44a83ec78eba8ddc0587af1f4ac67e55cf3e703e0fff7f730ee58e1f801"
+    },
+    {
+      "path": "data/resources/summary.tsv",
+      "bytes": 1901,
+      "sha256": "d2fa59967d73f2663c2491ee42fd45e0f3eab81775652395c31b901240a85262"
+    },
+    {
+      "path": "workflows/rna/analysis/PLAN.md",
+      "bytes": 4221,
+      "sha256": "88b79a3acaa1c728c1386561ae37c2d77558f2db020c68bb627384560a40d21e"
+    },
+    {
+      "path": "workflows/rna/analysis/analyse.py",
+      "bytes": 10622,
+      "sha256": "c8b593fd4756024e76247b8a9eb0502ad17d270708b4a01b87d0141816a2f1e0"
+    },
+    {
+      "path": "workflows/rna/analysis/analysis_lock.json",
+      "bytes": 1368,
+      "sha256": "e87d2decb0324cfe3f0608ab812d58347f339cf76a7a19da98e65e03453e4992"
+    },
+    {
+      "path": "workflows/rna/analysis/expected_raw_sha256.json",
+      "bytes": 9124,
+      "sha256": "dc7a2f56fbbe286f2c68505913ebbafe84110862a264615d52544b3c476179a2"
+    },
+    {
+      "path": "workflows/rna/analysis/extract.py",
+      "bytes": 6717,
+      "sha256": "567e1e74ac9c5803556702ae1a70d73f2b320ad71f45e70820ba0750fccbb6dc"
+    },
+    {
+      "path": "workflows/rna/analysis/matched_anchors.py",
+      "bytes": 1237,
+      "sha256": "941a8dd8baaf6031e56f1e9bc27e640e9c244478669123a54631b8b953cf399e"
+    },
+    {
+      "path": "workflows/rna/analysis/vendor/LICENSE.original-cohort",
+      "bytes": 1715,
+      "sha256": "e3bb8a655e7bf54feb926272f172614016fcae4414096203d67e50f808d1e88e"
+    },
+    {
+      "path": "workflows/rna/analysis/vendor/external_core.py",
+      "bytes": 3291,
+      "sha256": "73d0b6c8d92d653940de396dc84d407207123401297d226063676e3945563c2a"
+    },
+    {
+      "path": "workflows/rna/analysis/vendor/pase_weighted.py",
+      "bytes": 11222,
+      "sha256": "cd3ecdbb65ff697320c84c6b3e4e590c39a36d56ca74e16dcfe92d0af3724164"
+    },
+    {
+      "path": "workflows/rna/analysis/verify.py",
+      "bytes": 5378,
+      "sha256": "04a25ad88e4d78d1f8f5f6f01642deda53ff4f7f36bdd3805358d4182b68852c"
+    },
+    {
+      "path": "workflows/rna/evidence/previous_independent_checks.json",
+      "bytes": 410,
+      "sha256": "6907c04e26e237a6199cdbb1bd0da2f7fac3d2ad06ecac3831aae6fb0d0bd894"
+    },
+    {
+      "path": "workflows/rna/signature/signature_lock.json",
+      "bytes": 2581,
+      "sha256": "96b139540d09fe21679f9616f1556498327f0795b0cce12d89dc987e7980de96"
+    },
+    {
+      "path": "workflows/rna/signature/source/Li_2021_publisher.xml",
+      "bytes": 107315,
+      "sha256": "92c0c17a1e4e7a596847981bebace865417548837a20857f86e825bbdd8d574c"
+    },
+    {
+      "path": "workflows/rna/signature/spp1_tam_genes.txt",
+      "bytes": 85,
+      "sha256": "78e84663d8dee89838a146cd1e71225f769879df3ddb700418cd53a71a5e0a0a"
+    },
+    {
+      "path": "workflows/rna/signature/verify_signature.py",
+      "bytes": 2791,
+      "sha256": "2139d731e23febe96589d5a1d7500cbb7851f8b42b2817b53868b919a659b24a"
+    },
+    {
+      "path": "workflows/rna/synthesis/PLAN.md",
+      "bytes": 3008,
+      "sha256": "2648001f8f791064ef5ef13d47dd884469c97b630e3e38a67cc48b3136b7ca14"
+    },
+    {
+      "path": "workflows/rna/synthesis/check_pool.R",
+      "bytes": 1465,
+      "sha256": "fbc8f50eb9603942c764d140ac619c57f86f7920c88a4a18910374ec6654ed2d"
+    },
+    {
+      "path": "workflows/rna/synthesis/pool.py",
+      "bytes": 3353,
+      "sha256": "091716fe0ffc509ed356c71d62156b36e0332c0a7af242426cd9d0d53d49e8f6"
+    }
+  ]
+}
