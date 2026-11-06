@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-11-06T04:09:44.715755+00:00",
+  "checked_utc": "2026-11-06T04:20:39.481930+00:00",
   "system": "Windows",
   "python": "3.13.7",
   "dependencies": {
@@ -32,7 +32,7 @@
       ],
       "exit_code": 0,
       "stdout": "",
-      "stderr": "test_all_pinned_sources_and_frozen_analysis_sources (test_reproduction.ReproductionTests.test_all_pinned_sources_and_frozen_analysis_sources) ... ok\ntest_archive_extraction_and_traversal_rejection (test_reproduction.ReproductionTests.test_archive_extraction_and_traversal_rejection) ... ok\ntest_missing_formal_results_do_not_create_plots (test_reproduction.ReproductionTests.test_missing_formal_results_do_not_create_plots) ... ok\ntest_tamper_is_rejected (test_reproduction.ReproductionTests.test_tamper_is_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.225s\n\nOK"
+      "stderr": "test_all_pinned_sources_and_frozen_analysis_sources (test_reproduction.ReproductionTests.test_all_pinned_sources_and_frozen_analysis_sources) ... ok\ntest_archive_extraction_and_traversal_rejection (test_reproduction.ReproductionTests.test_archive_extraction_and_traversal_rejection) ... ok\ntest_missing_formal_results_do_not_create_plots (test_reproduction.ReproductionTests.test_missing_formal_results_do_not_create_plots) ... ok\ntest_noncanonical_root_keeps_checksum_and_boundary_checks (test_reproduction.ReproductionTests.test_noncanonical_root_keeps_checksum_and_boundary_checks) ... ok\ntest_tamper_is_rejected (test_reproduction.ReproductionTests.test_tamper_is_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.231s\n\nOK"
     },
     {
       "arguments": [

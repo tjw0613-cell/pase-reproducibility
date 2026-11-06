@@ -92,7 +92,7 @@ def main():
                             "new external-method benchmarking", "formal unified negative-binomial simulation"]
     output = ROOT / "verification_report.json"
     output.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")
-    print("Passed: relocated reconstruction of Figures 1/2/5/6, source checks, four tests, signature verification, pooling comparison; Figures 3/4 fail with exit 2.")
+    print("Passed: relocated reconstruction of Figures 1/2/5/6, source and regression checks, signature verification, pooling comparison; Figures 3/4 fail with exit 2.")
 
 
 if __name__ == "__main__":

@@ -42,6 +42,26 @@ class ReproductionTests(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError, "checksum mismatch"):
                     checker.verify()
 
+    def test_noncanonical_root_keeps_checksum_and_boundary_checks(self):
+        checker = module("checker", "scripts/verify_sources.py")
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            (root / "nested").mkdir()
+            (root / "input.tsv").write_bytes(b"good")
+            manifest = {"files":[{"path":"input.tsv", "bytes":4,
+                                   "sha256":hashlib.sha256(b"good").hexdigest()}]}
+            (root / "source_manifest.json").write_text(json.dumps(manifest))
+            with patch.object(checker, "ROOT", root / "nested" / ".."):
+                self.assertEqual(checker.verify()["status"], "verified")
+                # Use an equal-size change so this proves the hash is checked.
+                (root / "input.tsv").write_bytes(b"evil")
+                with self.assertRaisesRegex(RuntimeError, "checksum mismatch"):
+                    checker.verify()
+                manifest["files"][0]["path"] = "../outside.tsv"
+                (root / "source_manifest.json").write_text(json.dumps(manifest))
+                with self.assertRaisesRegex(RuntimeError, "unsafe path"):
+                    checker.verify()
+
     def test_missing_formal_results_do_not_create_plots(self):
         with tempfile.TemporaryDirectory() as temporary:
             destination = Path(temporary) / "figures"

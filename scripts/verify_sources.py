@@ -9,11 +9,14 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def verify() -> dict:
-    manifest = json.loads((ROOT / "source_manifest.json").read_text(encoding="utf-8"))
+    # Temporary directories can use /var aliases on macOS or short paths on
+    # Windows. Compare resolved files with the same canonical root.
+    root = ROOT.resolve()
+    manifest = json.loads((root / "source_manifest.json").read_text(encoding="utf-8"))
     failures = []
     for item in manifest["files"]:
-        path = (ROOT / item["path"]).resolve()
-        if not path.is_relative_to(ROOT) or not path.is_file():
+        path = (root / item["path"]).resolve()
+        if not path.is_relative_to(root) or not path.is_file():
             failures.append(item["path"] + ": missing or unsafe path")
             continue
         raw = path.read_bytes()
