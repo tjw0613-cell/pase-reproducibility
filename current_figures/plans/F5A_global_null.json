@@ -1,0 +1,121 @@
+{
+  "id": "F5A_global_null",
+  "figure": "Figure_5",
+  "width_mm": 47,
+  "height_mm": 51,
+  "layer_box": [
+    7,
+    7,
+    90,
+    80
+  ],
+  "series": [
+    {
+      "label": "equal80",
+      "color": "#333333",
+      "symbol": 2,
+      "x": [
+        49.1,
+        49.4,
+        5.050000000000001,
+        4.75,
+        4.45,
+        4.3999999999999995
+      ],
+      "y": [
+        6.16,
+        5.16,
+        4.16,
+        3.16,
+        2.16,
+        1.16
+      ],
+      "low": [
+        46.9128744176061,
+        47.21210262972308,
+        4.1735473261678,
+        3.901402059617837,
+        3.6302665128406817,
+        3.585182041641652
+      ],
+      "high": [
+        51.29057626750014,
+        51.590197827014414,
+        6.098795224416838,
+        5.772090719335552,
+        5.4443764944814586,
+        5.389652670408614
+      ]
+    },
+    {
+      "label": "unequal",
+      "color": "#ACACAC",
+      "symbol": 1,
+      "x": [
+        52.55,
+        51.6,
+        4.7,
+        5.3,
+        4.8500000000000005,
+        5.3
+      ],
+      "y": [
+        5.84,
+        4.84,
+        3.84,
+        2.84,
+        1.84,
+        0.84
+      ],
+      "low": [
+        50.35875005421181,
+        49.40884680961259,
+        3.856140236516857,
+        4.401045720579706,
+        3.9920093442877085,
+        4.401045720579706
+      ],
+      "high": [
+        54.731473004653786,
+        53.7850186390874,
+        5.717544247164658,
+        6.370338306364304,
+        5.881100025209431,
+        6.370338306364304
+      ]
+    }
+  ],
+  "xlim": [
+    0,
+    60,
+    20
+  ],
+  "ylim": [
+    0.5,
+    6.5,
+    1
+  ],
+  "show_ylabels": false,
+  "show_yaxis": false,
+  "horizontal_error": true,
+  "references": [
+    {
+      "axis": "x",
+      "value": 5
+    }
+  ],
+  "row_labels": [
+    "Pooled Pearson",
+    "Pooled Spearman",
+    "Patient-mean Pearson",
+    "Mundlak slope",
+    "Equal-patient t",
+    "REML–HKSJ"
+  ],
+  "display_transform": "All stored rates and Wilson endpoints multiplied by 100, no CI recomputation.",
+  "source_file": "Figure5_A_global_null.csv",
+  "source_sha256": "0546590cd4b6a89dd9e0f1448a9840d5462b91fcb0954c691296ffa0cc89b40c",
+  "font_pt": 7.5,
+  "route": "points",
+  "user_request": "2026-11-08: patient visibility, short labels, shuffle bars, runtime curves, neutral allocation palette and null-axis ranges."
+}

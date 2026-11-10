@@ -1,0 +1,116 @@
+{
+  "id": "F5A_heterogeneous_positive",
+  "figure": "Figure_5",
+  "width_mm": 47,
+  "height_mm": 51,
+  "layer_box": [
+    7,
+    7,
+    90,
+    80
+  ],
+  "series": [
+    {
+      "label": "equal80",
+      "color": "#333333",
+      "symbol": 2,
+      "x": [
+        72.95,
+        71.8,
+        5.1499999999999995,
+        89.60000000000001,
+        38.15,
+        38.6
+      ],
+      "y": [
+        6.16,
+        5.16,
+        4.16,
+        3.16,
+        2.16,
+        1.16
+      ],
+      "low": [
+        70.9605371688876,
+        69.7875975011395,
+        4.264472005033882,
+        88.18537493786968,
+        36.04576198164759,
+        36.49019856224632
+      ],
+      "high": [
+        74.8514703609029,
+        73.72881923739787,
+        6.207487136094505,
+        90.86279491745508,
+        40.2996720389181,
+        40.75351011576624
+      ]
+    },
+    {
+      "label": "unequal",
+      "color": "#ACACAC",
+      "symbol": 1,
+      "x": [
+        76.55,
+        75.75,
+        4.75,
+        87.55,
+        37.15,
+        37.7
+      ],
+      "y": [
+        5.84,
+        4.84,
+        3.84,
+        2.84,
+        1.84,
+        0.84
+      ],
+      "low": [
+        74.64333372693721,
+        73.82342191539345,
+        3.901402059617837,
+        86.03068678385486,
+        35.05881804471569,
+        35.60151839089553
+      ],
+      "high": [
+        78.35487106242824,
+        77.57785014962201,
+        5.772090719335552,
+        88.92534296532301,
+        39.2904500704125,
+        39.84564097222328
+      ]
+    }
+  ],
+  "xlim": [
+    -3,
+    103,
+    50
+  ],
+  "ylim": [
+    0.5,
+    6.5,
+    1
+  ],
+  "show_ylabels": false,
+  "show_yaxis": false,
+  "horizontal_error": true,
+  "references": [],
+  "row_labels": [
+    "Pooled Pearson",
+    "Pooled Spearman",
+    "Patient-mean Pearson",
+    "Mundlak slope",
+    "Equal-patient t",
+    "REML–HKSJ"
+  ],
+  "display_transform": "All stored rates and Wilson endpoints multiplied by 100, no CI recomputation.",
+  "source_file": "Figure5_A_heterogeneous_positive.csv",
+  "source_sha256": "5a2018fb6bd3e7a4b72cb17b1e7ddd9d7c9f6c8299f0a7546b0b9ecb8dcb4515",
+  "font_pt": 7.5,
+  "route": "points",
+  "user_request": "2026-11-08: patient visibility, short labels, shuffle bars, runtime curves, neutral allocation palette and null-axis ranges."
+}

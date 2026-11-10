@@ -1,0 +1,59 @@
+{
+  "id": "F5B",
+  "figure": "Figure_5",
+  "route": "bar",
+  "source_file": "Figure5_B_all_table_rows.csv",
+  "width_mm": 55,
+  "height_mm": 57,
+  "layer_box": [
+    3,
+    5,
+    91,
+    82
+  ],
+  "font_pt": 7.2,
+  "series": [
+    {
+      "label": "Shuffle rejections",
+      "x": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "y": [
+        265,
+        510,
+        0,
+        46,
+        49,
+        49
+      ],
+      "color": "#333333"
+    }
+  ],
+  "xlim": [
+    6.5,
+    0.5,
+    -1
+  ],
+  "ylim": [
+    0,
+    550,
+    250
+  ],
+  "transposed_axes": true,
+  "method_order": [
+    "pooled_pearson",
+    "pooled_spearman",
+    "pseudobulk",
+    "mundlak",
+    "equal_r_t",
+    "reml_hksj"
+  ],
+  "missing_method": "memento: not run, not shown as zero",
+  "source_sha256": "03787a2211674f47fbca8849d76e655617053e2e19965ce068969091fec507a1",
+  "user_request": "2026-11-08: patient visibility, short labels, shuffle bars, runtime curves, neutral allocation palette and null-axis ranges."
+}

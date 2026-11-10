@@ -1,0 +1,94 @@
+{
+  "id": "F2A",
+  "figure": "Figure_2",
+  "width_mm": 132,
+  "height_mm": 42,
+  "layer_box": [
+    5,
+    8,
+    90,
+    78
+  ],
+  "series": [
+    {
+      "label": "equal80",
+      "color": "#333333",
+      "symbol": 2,
+      "x": [
+        49.1,
+        49.4,
+        4.45
+      ],
+      "y": [
+        3.15,
+        2.15,
+        1.15
+      ],
+      "low": [
+        46.9128744176061,
+        47.21210262972307,
+        3.6302665128406817
+      ],
+      "high": [
+        51.29057626750014,
+        51.590197827014414,
+        5.444376494481459
+      ]
+    },
+    {
+      "label": "unequal",
+      "color": "#ACACAC",
+      "symbol": 1,
+      "x": [
+        52.55,
+        51.6,
+        4.8500000000000005
+      ],
+      "y": [
+        2.85,
+        1.85,
+        0.85
+      ],
+      "low": [
+        50.35875005421182,
+        49.40884680961259,
+        3.992009344287708
+      ],
+      "high": [
+        54.731473004653786,
+        53.7850186390874,
+        5.881100025209431
+      ]
+    }
+  ],
+  "xlim": [
+    0,
+    60,
+    20
+  ],
+  "ylim": [
+    0.5,
+    3.5,
+    1
+  ],
+  "show_ylabels": false,
+  "show_yaxis": false,
+  "horizontal_error": true,
+  "references": [
+    {
+      "axis": "x",
+      "value": 5
+    }
+  ],
+  "row_labels": [
+    "Pooled Pearson",
+    "Pooled Spearman",
+    "Equal-patient t"
+  ],
+  "display_transform": "Rates and Wilson endpoints ×100.",
+  "source_file": "Figure2_A.csv",
+  "source_sha256": "dbcacdecc802300a644c2a391135e97620f906e8a2f0e2a7d7c07d0dc89de1f6",
+  "font_pt": 7.5,
+  "route": "points",
+  "user_request": "2026-11-08: patient visibility, short labels, shuffle bars, runtime curves, neutral allocation palette and null-axis ranges."
+}

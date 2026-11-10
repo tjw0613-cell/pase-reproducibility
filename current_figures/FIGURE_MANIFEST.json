@@ -1,0 +1,162 @@
+{
+  "figures": {
+    "fig1": {
+      "name": "Figure_1",
+      "width_mm": 180,
+      "height_mm": 133,
+      "original_pdf_size_mm": [
+        179.99999,
+        133.0
+      ],
+      "original_pdf_sha256": "6734487fed52c5f347e1b1db428c5556036057ffe7a33d4b6d0824f0805b5b68",
+      "panels": [],
+      "render_scope": "schematic redrawing from fixed illustrative coordinates",
+      "png_dpi": 300,
+      "tiff_dpi": 600
+    },
+    "fig2": {
+      "name": "Figure_2",
+      "width_mm": 180,
+      "height_mm": 208,
+      "original_pdf_size_mm": [
+        179.99999,
+        208.00001
+      ],
+      "original_pdf_sha256": "8d6dab335708bc7371e4366515d137908c3da7041d2582ca18539e43e44f0e24",
+      "panels": [
+        "F2A",
+        "F2C",
+        "F2B_GSE234933",
+        "F2B_GSE181919",
+        "F2B_GSE310797"
+      ],
+      "render_scope": "vector composition of frozen Origin data-panel PDFs plus labels",
+      "png_dpi": 300,
+      "tiff_dpi": 600
+    },
+    "fig3": {
+      "name": "Figure_3",
+      "width_mm": 180,
+      "height_mm": 188,
+      "original_pdf_size_mm": [
+        179.99999,
+        188.0
+      ],
+      "original_pdf_sha256": "87f20189a1876d21c49517f22ee97723f36ed74a96e3053cdfb1850effc7ed53",
+      "panels": [
+        "F3A",
+        "F3B",
+        "F3C"
+      ],
+      "render_scope": "vector composition of frozen Origin data-panel PDFs plus labels",
+      "png_dpi": 300,
+      "tiff_dpi": 600
+    },
+    "fig4": {
+      "name": "Figure_4",
+      "width_mm": 180,
+      "height_mm": 176,
+      "original_pdf_size_mm": [
+        179.99999,
+        176.0
+      ],
+      "original_pdf_sha256": "fa465103ec7068f4bf044d0348149bceb65b6341bf3eaa3cda7e94a5a20728d9",
+      "panels": [
+        "F4A",
+        "F4B",
+        "F4C",
+        "F4D",
+        "F4E",
+        "F4F",
+        "F4G",
+        "F4H",
+        "F4I"
+      ],
+      "render_scope": "vector composition of frozen Origin data-panel PDFs plus labels",
+      "png_dpi": 300,
+      "tiff_dpi": 600
+    },
+    "fig5": {
+      "name": "Figure_5",
+      "width_mm": 180,
+      "height_mm": 233,
+      "original_pdf_size_mm": [
+        179.99999,
+        232.99999
+      ],
+      "original_pdf_sha256": "03b00290d8201f979340790aed51f0a48cf39c847c79e5d85ee2f31d83153908",
+      "panels": [
+        "F5B",
+        "F5C",
+        "F5A_global_null",
+        "F5A_fixed_positive",
+        "F5A_heterogeneous_positive",
+        "F5D_global_null",
+        "F5D_fixed_positive",
+        "F5D_heterogeneous_positive"
+      ],
+      "render_scope": "vector composition of frozen Origin data-panel PDFs plus labels",
+      "png_dpi": 300,
+      "tiff_dpi": 600
+    },
+    "fig6": {
+      "name": "Figure_6",
+      "width_mm": 180,
+      "height_mm": 234,
+      "original_pdf_size_mm": [
+        179.99999,
+        233.99999
+      ],
+      "original_pdf_sha256": "a3cbc5375bbf7c0545a6d2187789b0fb287d7ca3d47682a5d3568df9466f5af7",
+      "panels": [
+        "F6A",
+        "F6C",
+        "F6B_GSE234933",
+        "F6B_GSE181919",
+        "F6B_GSE310797"
+      ],
+      "render_scope": "vector composition of frozen Origin data-panel PDFs plus labels",
+      "png_dpi": 300,
+      "tiff_dpi": 600
+    },
+    "figs1": {
+      "name": "Figure_S1",
+      "width_mm": 180,
+      "height_mm": 73,
+      "original_pdf_size_mm": [
+        179.99999,
+        73.0
+      ],
+      "original_pdf_sha256": "964d8f1cc43219b26acdf86b1ffe3771f166dd3bb0b85231d8b84fe26ff09bc4",
+      "panels": [
+        "FS1_GSE234933",
+        "FS1_GSE181919",
+        "FS1_GSE310797"
+      ],
+      "render_scope": "vector composition of frozen Origin data-panel PDFs plus labels",
+      "png_dpi": 300,
+      "tiff_dpi": 600
+    },
+    "figs2": {
+      "name": "Figure_S2",
+      "width_mm": 180,
+      "height_mm": 72,
+      "original_pdf_size_mm": [
+        179.99999,
+        72.0
+      ],
+      "original_pdf_sha256": "b04a296f11cda9607d88f7d868c307b9bcf36190224f0d5459f944e51e83d267",
+      "panels": [],
+      "render_scope": "data plotting from the saved 18-row rejection-rate/Wilson table",
+      "png_dpi": 600,
+      "tiff_dpi": 600
+    }
+  },
+  "original_panel_count": 33,
+  "scope": "This entry regenerates figure presentations from saved data and/or frozen Origin panel exports. It does not reanalyse raw counts or rerun simulations.",
+  "historical_results_doi": "10.5281/zenodo.24015713",
+  "later_supplementary_sources": {
+    "figs1": "Supplementary Data S1: detection-matched exploratory comparisons",
+    "figs2": "Supplementary Data S2: 1,500 additional unequal-cell cohorts; 500 per scenario. These later materials are not asserted to be in the historical DOI."
+  }
+}

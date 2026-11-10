@@ -1,0 +1,63 @@
+{
+  "id": "F6C",
+  "figure": "Figure_6",
+  "width_mm": 118,
+  "height_mm": 46,
+  "layer_box": [
+    7,
+    7,
+    89,
+    78
+  ],
+  "series": [
+    {
+      "label": "Paired change",
+      "color": "#0072B2",
+      "symbol": 2,
+      "x": [
+        0.04150999324071537,
+        0.11548938273870418,
+        0.011403832532770821
+      ],
+      "y": [
+        3,
+        2,
+        1
+      ],
+      "low": [
+        0.02370845778624988,
+        0.061439738081894416,
+        -0.015221913735799493
+      ],
+      "high": [
+        0.059311528695180867,
+        0.16953902739551396,
+        0.038029578801341134
+      ]
+    }
+  ],
+  "xlim": [
+    -0.03,
+    0.18,
+    0.05
+  ],
+  "ylim": [
+    0.5,
+    3.5,
+    1
+  ],
+  "show_ylabels": false,
+  "show_yaxis": false,
+  "horizontal_error": true,
+  "references": [
+    {
+      "axis": "x",
+      "value": 0
+    }
+  ],
+  "source_file": "Figure6_C.csv",
+  "source_sha256": "6c227bb50c72d04e1583f9ed806a788bcd17d9946633351339642a4841a7a693",
+  "font_pt": 7.5,
+  "route": "points",
+  "user_request": "2026-11-08: patient visibility, short labels, shuffle bars, runtime curves, neutral allocation palette and null-axis ranges."
+}

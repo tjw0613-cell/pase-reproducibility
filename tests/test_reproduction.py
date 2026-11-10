@@ -1,4 +1,4 @@
-"""Regression checks for integrity, unavailable targets and archive safety."""
+"""Regression checks for source integrity and safe archive handling."""
 from __future__ import annotations
 import hashlib
 import importlib.util
@@ -9,6 +9,7 @@ import subprocess
 import sys
 import tarfile
 import tempfile
+import shutil
 import unittest
 from unittest.mock import patch
 
@@ -62,15 +63,20 @@ class ReproductionTests(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError, "unsafe path"):
                     checker.verify()
 
-    def test_missing_formal_results_do_not_create_plots(self):
+    def test_current_figure_source_tamper_is_rejected(self):
+        renderer = module('current_renderer', 'current_figures/render.py')
         with tempfile.TemporaryDirectory() as temporary:
-            destination = Path(temporary) / "figures"
-            for figure in ("fig3", "fig4"):
-                result = subprocess.run([sys.executable, "-B", str(ROOT / "reproduce.py"), figure,
-                                         "--output-dir", str(destination)], capture_output=True, text=True)
-                self.assertEqual(result.returncode, 2)
-                self.assertIn("NOT AVAILABLE", result.stderr)
-                self.assertFalse(destination.exists())
+            destination = Path(temporary) / 'current figures'
+            shutil.copytree(ROOT / 'current_figures', destination)
+            with patch.object(renderer, 'ROOT', destination):
+                self.assertEqual(renderer.verify()['status'], 'PASS')
+                manifest = json.loads((destination / 'FILES.sha256.json').read_text(encoding='utf-8'))
+                item = next(x for x in manifest['files'] if x['path'].endswith('.pdf'))
+                target = destination / item['path']
+                data = target.read_bytes()
+                target.write_bytes(bytes([data[0] ^ 1]) + data[1:])
+                with self.assertRaisesRegex(ValueError, 'Source verification failed'):
+                    renderer.verify()
 
     def test_archive_extraction_and_traversal_rejection(self):
         helper = module("preparer", "workflows/rna/prepare_inputs.py")

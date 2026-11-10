@@ -1,31 +1,54 @@
-# Figure and source map
+# Current figure and source map
 
-All paths below are relative to this repository. Table bytes are checked by `source_manifest.json`. Figures 1, 2 and 5 share drawing utilities, but each public `scripts/figN.py` entry point produces only its corresponding figure.
+The figure inputs correspond to the revised manuscript of **9 November 2026**.
+`current_figures/FIGURE_MANIFEST.json` lists dimensions and construction modes;
+the input manifest verifies the actual panel, table and drawing files.
+`current_figures/SOURCE_ORIGINS.json` records their source locations. Those
+historical location labels are not runtime dependencies.
 
-| Panel | Exact input | Displayed quantity and boundary |
+| Target | Current content | Construction |
 |---|---|---|
-| 1A–C | `scripts/_drawings.py`, function `fig1` | Conceptual routes and three aggregation targets. The 9/4/2 drawn cells are illustrative, not observed sample counts. Empirical Bayes estimates individuals, not a group-test result. |
-| 2A | `data/gaussian/comparison.csv` | Select `global_null`, both allocations, and pooled Pearson, pooled Spearman and equal-patient t. Rejection rates among available tests, with stored pointwise Wilson intervals, 2,000 datasets per allocation and eight donors. |
-| 2B | `data/biology/pooling_influence.tsv` | `original` versus `largest_tenfold` for three cohorts; the same processed cells and donor IDs are retained. The largest donor has ten copies total. This changes leverage without new biological observations. |
-| 3 | No formal output exists | Planned coverage and type-I-error heatmaps. Exit 2, no plot. |
-| 4 | No formal output exists | Planned bias, efficiency and selection comparisons. Exit 2, no plot. |
-| 5A | `data/gaussian/comparison.csv` | Native rejection rates for six methods, two allocations and three scenarios. Displayed percentages use decimal half-up rounding to one decimal. Positive scenarios have different targets and are not a common-target power ranking. |
-| 5B | `data/controls/positive_reference_summary.tsv`, `shuffle_summary.tsv`, `memento_tests.tsv`, `sc_C1QA_C1QB.csv`, `sc_HLA-DRA_CD74.csv`, `sc_MS4A7_CD14.csv`, `sc_RPLP0_RPL13A.csv` | Four selected reference pairs in 19 GSE181919 donors; a call requires positive estimate and nominal two-sided P < 0.05. scCOSMiX has one usable fit out of four attempted pairs. The shuffle column counts rejections among 999 within-donor LILRB4–MMP14 permutations for methods with that test. A within-donor shuffle leaves donor aggregate values unchanged. |
-| 5C | `data/resources/summary.tsv` | Single-pair runtime and peak process-tree memory: 20 donors, 32 genes, 10,000/100,000/1,000,000 cells. Medians of three successful runs, or one censored scCOSMiX attempt. PASE computes three summaries; memento computes moments without bootstrap testing. Workloads are not identical. |
-| 5D | `data/count_pilot/summary.tsv`, `sc_summary.tsv` | Completed balanced eight-donor count pilot. Rejected/usable fits, 100 attempts for PASE and memento; 12 scCOSMiX attempts. This pilot is separate from the unrun unified simulation. |
-| 6A | `data/biology/cohort_estimates.tsv`, `pooled.tsv` | Primary cohort equal means and t intervals, plus Fisher REML means and HKSJ intervals. Cohort pooling uses separate scales and modified Hartung–Knapp mean intervals. Dashed lines are three-cohort prediction intervals. |
-| 6B | `data/biology/cohort_estimates.tsv` | Equal-patient mean and t intervals for depth adjustment, a detection gate, no adjustment and depth plus CD68. GSE181919 has 18 eligible donors under the gate and 19 in the primary analysis. |
-| 6C | `data/biology/pooling_influence.tsv` | Original pooled-cell, stacked-residual, equal-patient and Fisher REML estimates, each with its native target. |
-| 6D | `scripts/fig6.py` | Reporting policy, not an empirically validated patient-count threshold. J ≥ 2 is a mathematical calculability condition; study-specific floors and uncertainty settings remain explicit. |
+| `fig1` | Patient-level workflow; equal, random-effects and individual shrinkage summaries | Schematic artwork; positions are illustrative, not fitted biological data. |
+| `fig2` | Gaussian null rejection, patient duplication, individual patient cell counts | Compose saved Origin panels. Eight patients and 2,000 cohorts per Gaussian allocation; RNA counts include unavailable records explicitly. |
+| `fig3` | Count-data coverage and signed-control rejection across patient counts and heterogeneity | Compose saved Origin heatmaps from the completed formal experiment; six interval methods, distinct arithmetic and Fisher targets. |
+| `fig4` | Cell-yield coupling, bias/error/width, and gated-minus-ungated changes | Compose the nine saved Origin panels. No removed availability-only row is reintroduced. |
+| `fig5` | Gaussian rejection, 999 within-patient shuffles, runtime, balanced native count benchmark | Compose saved Origin panels. The native benchmark uses **500 cohorts per scenario**, not the historical 100-attempt pilot. Memento shuffles were not run. |
+| `fig6` | Individual patient correlations and cohort summaries; 10/30/50-cell sensitivity; paired gating shifts | Compose saved Origin panels. There is no old reporting-flow panel D. |
+| `figs1` | Detection-matched gene comparisons and LILRB4's position | Compose saved Origin panels from the later A1 analysis. |
+| `figs2` | Unequal-yield native memento comparison | Plot saved summary values from the later 1,500-cohort extension. |
 
-## Gaussian controls
+Complete captions are in [captions](captions/). The individual source tables,
+panel plans and numerical values are provided in
+[current_figures](current_figures/). Counts, covariance adjustments, targets
+and limits should be read with those captions; the figure commands do not
+re-estimate them.
 
-The retrospective continuous-data controls use independent gene-specific donor shifts and independent within-donor innovations under the global null. Allocations are 80 cells per donor or lognormal yields clipped to 20–260. Fixed associations use rho = 0.2; heterogeneous associations independently assign rho = −0.05 or 0.45 with equal probability. All three scenarios reuse original innovations. The six allocation/scenario columns should not be counted as independent simulated datasets. Figure 2A is a subset of Figure 5A.
+## Three distinct reproduction tasks
 
-## RNA endpoint and denominators
+1. **Compose the current artwork:** `python reproduce.py all`. Origin-exported
+   vector panels are placed into the final layout; the Origin application is
+   not required. This does not recalculate the panel from observations.
+2. **Inspect or replot saved data:** use the supplied source tables and panel
+   plans. The author-editable Origin projects are supplied separately; this
+   repository does not pretend that PDF composition is an editable Origin fit.
+3. **Recompute analyses:** follow [ARCHIVES.md](ARCHIVES.md) and the
+   [RNA workflow](workflows/rna/README.md). Full S1/S2 workflows are supplied
+   as manuscript supplements, separately from core DOI 24015713.
 
-The complete published signature is `workflows/rna/signature/spp1_tam_genes.txt`: SPP1, PCSK5, SLC11A1, VCAN, SLC25A37, FLNA, UPP1, BCL6, AQP9, TIMP1, VEGFA, ADM, MARCO, FN1 and IL1RN. Its source is the explicitly enumerated list in [Li et al., 2021](https://doi.org/10.3389/fimmu.2021.694801). The frozen source and verification script accompany the workflow. Scoring is an adaptation of the published signature, not a claim to run the source paper's AddModuleScore procedure.
+The historical tables in `data/count_pilot` and old records under `historical`
+are retained for traceability. Current figure commands do not read the pilot
+tables. Older figure scripts remain available through Git history.
 
-The primary cohorts have 48/51, 19/20 and 15/16 eligible/attempted donors for GSE234933, GSE181919 and GSE310797. HN23 and HN45 are specimens from one donor; the primary analysis retains HN23. The archived PT13 count file has an incomplete row and remains in the attempted denominator. The primary model does not gate on expression of signature genes. It adjusts for log library depth after within-specimen score construction. Association, eligibility and sensitivity definitions are specified in `workflows/rna/analysis/PLAN.md`.
+## Interpretation
 
-Equal-patient means and random-effects Fisher means answer distinct questions. Three-cohort prediction intervals are imprecise, and the reporting policy has not been calibrated by the still-unrun formal count simulation. None of the panels establishes causal regulation, treatment response or a validated universal minimum patient count.
+Equal-patient means and Fisher-scale random-effects means have different
+targets. Patient-wise sign controls are zero-population-mean experiments, not
+individual-patient sharp nulls. Cell selection can change the fitted
+population and scores; the RNA and simulation gating shifts do not prove a
+causal biological mechanism. The software's patient-count reporting defaults
+are result-informed choices rather than validated adequacy thresholds.
+
+The 15-gene RNA list and its source attribution remain in
+[the signature workflow](workflows/rna/signature/). Raw GEO expression
+matrices are not included. No statistical results are changed by the present
+documentation and figure-entry repair.

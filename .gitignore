@@ -6,3 +6,6 @@ raw/
 private_cache/
 *.egg-info/
 .DS_Store
+verification_report.json
+current_figures/__pycache__/
+downloads/

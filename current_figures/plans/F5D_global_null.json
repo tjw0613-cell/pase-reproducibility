@@ -1,0 +1,69 @@
+{
+  "id": "F5D_global_null",
+  "figure": "Figure_5",
+  "width_mm": 47,
+  "height_mm": 35,
+  "layer_box": [
+    7,
+    7,
+    90,
+    80
+  ],
+  "series": [
+    {
+      "label": "equal80",
+      "color": "#333333",
+      "symbol": 2,
+      "x": [
+        4.8,
+        4.8,
+        3.2
+      ],
+      "y": [
+        3,
+        2,
+        1
+      ],
+      "low": [
+        3.246520694135317,
+        3.246520694135317,
+        1.9791513626571122
+      ],
+      "high": [
+        7.042719683589007,
+        7.042719683589007,
+        5.134486904544177
+      ]
+    }
+  ],
+  "xlim": [
+    0,
+    10,
+    5
+  ],
+  "ylim": [
+    0.5,
+    3.5,
+    1
+  ],
+  "show_ylabels": false,
+  "show_yaxis": false,
+  "horizontal_error": true,
+  "references": [
+    {
+      "axis": "x",
+      "value": 5
+    }
+  ],
+  "row_labels": [
+    "Equal-patient t",
+    "REML–HKSJ",
+    "memento"
+  ],
+  "display_transform": "All stored rates and Wilson endpoints multiplied by 100, no CI recomputation.",
+  "source_file": "Figure5_D_global_null.csv",
+  "source_sha256": "13bf3e8d747cdc88cf80d877f21e49c83c58eeebd919fad0df8b14726adda39a",
+  "font_pt": 7.5,
+  "route": "points",
+  "user_request": "2026-11-08: patient visibility, short labels, shuffle bars, runtime curves, neutral allocation palette and null-axis ranges."
+}

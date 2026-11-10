@@ -1,12 +1,11 @@
-"""Reconstruct Figure 1 from verified saved results."""
-import argparse
-import os
+"""Compatibility entry point for current fig1 construction."""
 from pathlib import Path
+import subprocess
+import sys
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output-dir', type=Path, default=Path(__file__).resolve().parents[1]/'outputs')
-    args = parser.parse_args()
-    os.environ['PASE_FIGURE_OUTPUT'] = str(args.output_dir.resolve())
-    from _drawings import build
-    build(1)
+    root = Path(__file__).resolve().parents[1]
+    raise SystemExit(subprocess.call([
+        sys.executable, '-B', str(root / 'current_figures' / 'render.py'),
+        '--figure', 'fig1', *sys.argv[1:],
+    ]))

@@ -1,22 +1,90 @@
 {
   "fig1": {
-    "status": "ready_from_saved_results"
+    "status": "available",
+    "mode": "schematic_rendering",
+    "manuscript_revision": "2026-11-09",
+    "input_manifest": "current_figures/FILES.sha256.json",
+    "does_not_run": [
+      "statistical fitting",
+      "formal simulation",
+      "Origin application"
+    ]
   },
   "fig2": {
-    "status": "ready_from_saved_results"
+    "status": "available",
+    "mode": "saved_origin_panel_composition",
+    "manuscript_revision": "2026-11-09",
+    "input_manifest": "current_figures/FILES.sha256.json",
+    "does_not_run": [
+      "statistical fitting",
+      "formal simulation",
+      "Origin application"
+    ]
   },
   "fig3": {
-    "status": "not_available",
-    "reason": "The unified negative-binomial protocol has not been publicly archived and formal simulation results have not been produced. Historical Gaussian/count pilots cannot substitute for those results."
+    "status": "available",
+    "mode": "saved_origin_panel_composition",
+    "manuscript_revision": "2026-11-09",
+    "input_manifest": "current_figures/FILES.sha256.json",
+    "does_not_run": [
+      "statistical fitting",
+      "formal simulation",
+      "Origin application"
+    ]
   },
   "fig4": {
-    "status": "not_available",
-    "reason": "The unified negative-binomial protocol has not been publicly archived and formal simulation results have not been produced. Historical Gaussian/count pilots cannot substitute for those results."
+    "status": "available",
+    "mode": "saved_origin_panel_composition",
+    "manuscript_revision": "2026-11-09",
+    "input_manifest": "current_figures/FILES.sha256.json",
+    "does_not_run": [
+      "statistical fitting",
+      "formal simulation",
+      "Origin application"
+    ]
   },
   "fig5": {
-    "status": "ready_from_saved_results"
+    "status": "available",
+    "mode": "saved_origin_panel_composition",
+    "manuscript_revision": "2026-11-09",
+    "input_manifest": "current_figures/FILES.sha256.json",
+    "does_not_run": [
+      "statistical fitting",
+      "formal simulation",
+      "Origin application"
+    ]
   },
   "fig6": {
-    "status": "ready_from_saved_results"
+    "status": "available",
+    "mode": "saved_origin_panel_composition",
+    "manuscript_revision": "2026-11-09",
+    "input_manifest": "current_figures/FILES.sha256.json",
+    "does_not_run": [
+      "statistical fitting",
+      "formal simulation",
+      "Origin application"
+    ]
+  },
+  "figs1": {
+    "status": "available",
+    "mode": "saved_origin_panel_composition",
+    "manuscript_revision": "2026-11-09",
+    "input_manifest": "current_figures/FILES.sha256.json",
+    "does_not_run": [
+      "statistical fitting",
+      "formal simulation",
+      "Origin application"
+    ]
+  },
+  "figs2": {
+    "status": "available",
+    "mode": "saved_summary_plot",
+    "manuscript_revision": "2026-11-09",
+    "input_manifest": "current_figures/FILES.sha256.json",
+    "does_not_run": [
+      "statistical fitting",
+      "formal simulation",
+      "Origin application"
+    ]
   }
 }

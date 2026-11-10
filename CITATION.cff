@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Cite this repository release for figure construction; cite the version-specific protocol and results DOIs in VERSION_MAP.md separately."
+type: software
+title: "PASE manuscript reproduction: revised figure construction and analysis archive guide"
+version: "2026.11.10"
+date-released: 2026-11-10
+url: "https://github.com/tjw0613-cell/pase-reproducibility/releases/tag/v2026.11.10"
+repository-code: "https://github.com/tjw0613-cell/pase-reproducibility"
+authors:
+  - family-names: Tang
+    given-names: Jinwei
+  - family-names: Lin
+    given-names: Yunfan
+  - family-names: Cai
+    given-names: Linrui
+  - family-names: Wen
+    given-names: Yali
+  - family-names: Chen
+    given-names: Guangyang
+  - family-names: Huang
+    given-names: Li

@@ -1,5 +1,11 @@
-"""Entry point for the future weighting and selection-bias figure."""
-from _pending import main
+"""Compatibility entry point for current fig4 construction."""
+from pathlib import Path
+import subprocess
+import sys
 
-if __name__ == "__main__":
-    raise SystemExit(main("fig4"))
+if __name__ == '__main__':
+    root = Path(__file__).resolve().parents[1]
+    raise SystemExit(subprocess.call([
+        sys.executable, '-B', str(root / 'current_figures' / 'render.py'),
+        '--figure', 'fig4', *sys.argv[1:],
+    ]))

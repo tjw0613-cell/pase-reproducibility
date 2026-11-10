@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-10",
+  "results_doi": "10.5281/zenodo.24015713",
+  "protocol_doi": "10.5281/zenodo.24010816",
+  "archived_software_version": "1.1.0",
+  "hash_source": "SHA256SUMS.txt and README_RELEASE.md deposited in Zenodo record 24015713",
+  "archives": {
+    "count-code": {
+      "filename": "pase-count-code-and-figures-2026-11-06.zip",
+      "bytes": 17273365,
+      "sha256": "d98c828ed000f0f4575ed35119214a006fb0fc5fa41a31d738aded2943b0bd13",
+      "url": "https://zenodo.org/records/24015713/files/pase-count-code-and-figures-2026-11-06.zip?download=1",
+      "scope": "Frozen count protocol, later reporting code, and 6 November figure versions"
+    },
+    "count-results": {
+      "filename": "pase-count-results-2026-11-06.zip",
+      "bytes": 2938313334,
+      "sha256": "b044685fbb2394ede5d202f0f76243a8db6a7efd579120011470429c1f78b2c8",
+      "url": "https://zenodo.org/records/24015713/files/pase-count-results-2026-11-06.zip?download=1",
+      "scope": "293 conditions and 3,302,000 formal cohorts; stored patient-effect and interval arrays, summaries and seeds"
+    },
+    "software": {
+      "filename": "pase-framework-1.1.0.zip",
+      "bytes": 197014,
+      "sha256": "d48d449f788767b2a14de61a6a6f52dc92d7a290b24a08d7d7ee9558ce179615",
+      "url": "https://zenodo.org/records/24015713/files/pase-framework-1.1.0.zip?download=1",
+      "scope": "Published PASE 1.1.0 artifacts and release checks"
+    },
+    "native": {
+      "filename": "pase-native-benchmarks-2026-11-06.zip",
+      "bytes": 24025249,
+      "sha256": "8f137bd7d689884c154100c2acc16e70084ad7e33205604f1fb2ce868c03e4d6",
+      "url": "https://zenodo.org/records/24015713/files/pase-native-benchmarks-2026-11-06.zip?download=1",
+      "scope": "Balanced memento benchmark: 3 scenarios x 500 cohorts; supplementary scCOSMiX feasibility"
+    },
+    "rna": {
+      "filename": "pase-rna-15gene-2026-11-06.zip",
+      "bytes": 1516313,
+      "sha256": "1941bfb35ba9a60ddce46fb120bcfdf26e89720125ab1185ffa71106988b95c9",
+      "url": "https://zenodo.org/records/24015713/files/pase-rna-15gene-2026-11-06.zip?download=1",
+      "scope": "Three-cohort 15-gene RNA analysis, thresholds and gates; raw GEO matrices excluded"
+    }
+  },
+  "submission_supplements": {
+    "S1": {
+      "filename": "Supplementary_Data_S1.zip",
+      "bytes": 2915498,
+      "sha256": "e9a15ff815279ac9a9fea94d06b5427a096249901b0b46a53ce6f63cd0c234e0",
+      "scope": "Later detection-matched gene controls",
+      "availability": "Submitted with the manuscript; not in Zenodo record 24015713"
+    },
+    "S2": {
+      "filename": "Supplementary_Data_S2.zip",
+      "bytes": 67128828,
+      "sha256": "dda7786a3b40d753e1a23f816323fa841f798ba203025b54e8000d4cd98a8dee",
+      "scope": "Later unequal-yield memento extension: 3 scenarios x 500 cohorts",
+      "availability": "Submitted with the manuscript; not in Zenodo record 24015713"
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "F6B_GSE181919",
+  "figure": "Figure_6",
+  "width_mm": 57,
+  "height_mm": 47,
+  "layer_box": [
+    20,
+    7,
+    74,
+    78
+  ],
+  "series": [
+    {
+      "label": "equal_t",
+      "x": [
+        0.95,
+        1.95,
+        2.95
+      ],
+      "y": [
+        0.0547958078756715,
+        0.0547958078756715,
+        0.0716220770694699
+      ],
+      "low": [
+        -0.04304771478431741,
+        -0.04304771478431741,
+        -0.026993127377331352
+      ],
+      "high": [
+        0.15263933053566042,
+        0.15263933053566042,
+        0.17023728151627116
+      ],
+      "color": "#0072B2",
+      "symbol": 2,
+      "connect": true
+    },
+    {
+      "label": "reml_hksj",
+      "x": [
+        1.05,
+        2.05,
+        3.05
+      ],
+      "y": [
+        0.059138572590011165,
+        0.059138572590011165,
+        0.07009664915651037
+      ],
+      "low": [
+        -0.03893384105226833,
+        -0.03893384105226833,
+        -0.03057647977086364
+      ],
+      "high": [
+        0.1560825164554989,
+        0.1560825164554989,
+        0.16936186100516445
+      ],
+      "color": "#D55E00",
+      "symbol": 1,
+      "connect": true
+    }
+  ],
+  "xlim": [
+    0.5,
+    3.5,
+    1
+  ],
+  "xlabels": [
+    "10",
+    "30",
+    "50"
+  ],
+  "show_xlabels": false,
+  "ylim": [
+    -0.06,
+    0.18,
+    0.05
+  ],
+  "references": [
+    {
+      "axis": "y",
+      "value": 0
+    }
+  ],
+  "eligible_counts": [
+    19,
+    19,
+    17
+  ],
+  "display_transform": "Equally spaced cutoff positions 1/2/3 labelled10/30/50; small method offset only.",
+  "source_file": "Figure6_B_GSE181919.csv",
+  "source_sha256": "afbb3cdabb968592cf4c5b38f63911fa252e0c184dabfb281d6072922d0b0953",
+  "font_pt": 7.5,
+  "route": "points",
+  "show_ylabels": true,
+  "user_request": "2026-11-08: patient visibility, short labels, shuffle bars, runtime curves, neutral allocation palette and null-axis ranges."
+}

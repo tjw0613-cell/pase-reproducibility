@@ -1,0 +1,140 @@
+{
+  "id": "F5C",
+  "figure": "Figure_5",
+  "source_file": "Figure5_C_all_table_rows.csv",
+  "width_mm": 84,
+  "height_mm": 57,
+  "layer_box": [
+    16,
+    5,
+    78,
+    82
+  ],
+  "series": [
+    {
+      "label": "pooled_pearson",
+      "x": [
+        10000,
+        100000,
+        1000000
+      ],
+      "y": [
+        0.6438959999941289,
+        0.6813858000095934,
+        0.7484789000009187
+      ],
+      "color": "#333333",
+      "symbol": 2,
+      "size": 3.5,
+      "connect": true,
+      "dash": false
+    },
+    {
+      "label": "pooled_spearman",
+      "x": [
+        10000,
+        100000,
+        1000000
+      ],
+      "y": [
+        0.6438767999934498,
+        0.6730233000125736,
+        0.8345314000034705
+      ],
+      "color": "#888888",
+      "symbol": 1,
+      "size": 3.5,
+      "connect": true,
+      "dash": true
+    },
+    {
+      "label": "pseudobulk",
+      "x": [
+        10000,
+        100000,
+        1000000
+      ],
+      "y": [
+        0.6813393000047654,
+        0.6659491999889724,
+        0.7463579000032041
+      ],
+      "color": "#B15928",
+      "symbol": 3,
+      "size": 3.5,
+      "connect": true,
+      "dash": false
+    },
+    {
+      "label": "mundlak",
+      "x": [
+        10000,
+        100000,
+        1000000
+      ],
+      "y": [
+        0.9248541999841109,
+        1.0042174000118393,
+        1.5752625000022817
+      ],
+      "color": "#009E73",
+      "symbol": 5,
+      "size": 3.5,
+      "connect": true,
+      "dash": false
+    },
+    {
+      "label": "pase_all",
+      "x": [
+        10000,
+        100000,
+        1000000
+      ],
+      "y": [
+        0.6685872999951243,
+        0.6628291000088211,
+        0.7695527999894693
+      ],
+      "color": "#0072B2",
+      "symbol": 2,
+      "size": 3.5,
+      "connect": true,
+      "dash": true
+    },
+    {
+      "label": "memento",
+      "x": [
+        10000,
+        100000,
+        1000000
+      ],
+      "y": [
+        1.6585376000148244,
+        2.0224644000118133,
+        5.032778799999505
+      ],
+      "color": "#70449D",
+      "symbol": 1,
+      "size": 3.5,
+      "connect": true,
+      "dash": false
+    }
+  ],
+  "xlim": [
+    8000,
+    1250000,
+    1
+  ],
+  "x_scale": "log10",
+  "ylim": [
+    0,
+    5.6,
+    2
+  ],
+  "show_xlabels": false,
+  "display_transform": "Existing median times, connected by display lines; log X counts; no runtime refit.",
+  "source_sha256": "a632f310f377320d2433664215e500c5bb2cf3b0f625c6cdb2cd748d6a19e0bb",
+  "font_pt": 7.5,
+  "route": "points",
+  "user_request": "2026-11-08: patient visibility, short labels, shuffle bars, runtime curves, neutral allocation palette and null-axis ranges."
+}

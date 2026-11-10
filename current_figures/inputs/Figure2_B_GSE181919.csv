@@ -1,0 +1,7 @@
+cohort,scenario,method,method_label,Estimate,eligible,n_cells,largest_cell_share,largest_donor,SourceRow,SourceField
+GSE181919,original,pooled_Pearson,Pooled cells,0.014316848022817187,19,4126,0.15826466311197285,P26,52,pooled_Pearson
+GSE181919,original,stacked_residual_Pearson,Stacked residuals,0.023234302409294423,19,4126,0.15826466311197285,P26,52,stacked_residual_Pearson
+GSE181919,original,equal_t,Equal-patient mean,0.0547958078756715,19,4126,0.15826466311197285,P26,52,equal_t
+GSE181919,largest_tenfold,pooled_Pearson,Pooled cells,-0.11363390135277611,19,10003,0.6528041587523743,P26,53,pooled_Pearson
+GSE181919,largest_tenfold,stacked_residual_Pearson,Stacked residuals,-0.1061971359921472,19,10003,0.6528041587523743,P26,53,stacked_residual_Pearson
+GSE181919,largest_tenfold,equal_t,Equal-patient mean,0.0547958078756715,19,10003,0.6528041587523743,P26,53,equal_t

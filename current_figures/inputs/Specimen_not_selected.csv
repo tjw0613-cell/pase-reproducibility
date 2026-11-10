@@ -1,0 +1,2 @@
+﻿cohort,specimen,donor,status,annotated_cells,positive_library_cells,selected_for_attempted_denominator,selection_reason
+GSE234933,HN45,HN23_HN45,ok,420.0,420.0,False,later specimen from same recurrence donor not selected

@@ -9,3 +9,10 @@ The figure and workflow code was written for PASE by the authors. The plotting a
 Expression matrices are obtained separately from the original GEO accessions. This repository contains only author-generated aggregate results and source documentation, not raw cell matrices or barcode caches. Original study citations and usage conditions remain applicable.
 
 DejaVu Sans is loaded from the installed Matplotlib package, under its bundled font license. PDFium and other third-party libraries are installed as dependencies and retain their own licenses; their binaries are not redistributed in this repository.
+
+The current figure sources use installed Arial where available, with documented
+Liberation Sans or DejaVu Sans fallbacks. No proprietary font files or Origin
+application binaries are redistributed. Saved author-created Origin PDF panels
+retain their embedded fonts. `current_figures/LICENSE_SCOPE.md` describes the
+code, derived-table and panel-artwork licence scope. PyMuPDF and the other
+installed rendering dependencies retain their own licences.

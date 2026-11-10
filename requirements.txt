@@ -1,5 +1,7 @@
 matplotlib>=3.9,<4
 numpy>=1.26,<3
+scipy>=1.14,<2
 Pillow>=10,<13
 reportlab>=4,<6
 pypdfium2>=4,<6
+-r current_figures/requirements.txt

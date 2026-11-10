@@ -1,0 +1,114 @@
+{
+  "id": "F2B_GSE234933",
+  "figure": "Figure_2",
+  "width_mm": 48,
+  "height_mm": 44,
+  "layer_box": [
+    9,
+    8,
+    85,
+    78
+  ],
+  "series": [
+    {
+      "label": "pooled_Pearson",
+      "x": [
+        0.032561930975934614,
+        0.02958279470674342
+      ],
+      "y": [
+        3,
+        3
+      ],
+      "color": "#606060",
+      "connect": true,
+      "line_only": true
+    },
+    {
+      "label": "stacked_residual_Pearson",
+      "x": [
+        0.03353087423668403,
+        0.02964286171028946
+      ],
+      "y": [
+        2,
+        2
+      ],
+      "color": "#606060",
+      "connect": true,
+      "line_only": true
+    },
+    {
+      "label": "equal_t",
+      "x": [
+        0.030037151123067818,
+        0.030037151123067818
+      ],
+      "y": [
+        1,
+        1
+      ],
+      "color": "#606060",
+      "connect": true,
+      "line_only": true
+    },
+    {
+      "label": "original",
+      "x": [
+        0.032561930975934614,
+        0.03353087423668403,
+        0.030037151123067818
+      ],
+      "y": [
+        3,
+        2,
+        1
+      ],
+      "color": "#333333",
+      "symbol": 2
+    },
+    {
+      "label": "largest_tenfold",
+      "x": [
+        0.02958279470674342,
+        0.02964286171028946,
+        0.030037151123067818
+      ],
+      "y": [
+        3,
+        2,
+        1
+      ],
+      "color": "#ACACAC",
+      "symbol": 5
+    }
+  ],
+  "xlim": [
+    -0.15,
+    0.22,
+    0.1
+  ],
+  "ylim": [
+    0.5,
+    3.5,
+    1
+  ],
+  "show_ylabels": false,
+  "show_yaxis": false,
+  "row_labels": [
+    "Pooled cells",
+    "Stacked residuals",
+    "Equal-patient mean"
+  ],
+  "references": [
+    {
+      "axis": "x",
+      "value": 0
+    }
+  ],
+  "source_file": "Figure2_B_GSE234933.csv",
+  "source_sha256": "8d54d19411dbd66c2109432b5cdb94f64234c737826a10426a8593eeff965c24",
+  "font_pt": 7.5,
+  "route": "points",
+  "user_request": "2026-11-08: patient visibility, short labels, shuffle bars, runtime curves, neutral allocation palette and null-axis ranges."
+}

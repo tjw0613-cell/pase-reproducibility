@@ -1,0 +1,4 @@
+﻿cohort,attempted,eligible,known_cell_counts,unknown_cell_counts,eligible_cell_count_min,eligible_cell_count_max,eligible_cell_ratio,known_attempted_cell_count_min,known_attempted_cell_count_max,known_attempted_cell_ratio,eligible_r_min,eligible_r_min_donor,eligible_r_min_cells,eligible_r_max,eligible_r_max_donor,eligible_r_max_cells,eligible_n_min_donor,eligible_n_max_donor,excluded_donors
+GSE234933,51,48,51,0,76,2602,34.23684210526316,9,2602,289.1111111111111,-0.22455765486735157,HN28,80,0.21005238646987343,HN60,629,HN13,HN42,HN50;HN7;HN8
+GSE181919,20,19,20,0,38,653,17.18421052631579,3,653,217.66666666666666,-0.3200062376629299,P86,38,0.4841639095459596,P30,74,P86,P26,P4
+GSE310797,16,15,15,1,109,1973,18.10091743119266,109,1973,18.10091743119266,-0.08068835309827303,PT8,575,0.09140736982692094,PT16,1973,PT10,PT16,PT13

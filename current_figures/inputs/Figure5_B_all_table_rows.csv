@@ -1,0 +1,8 @@
+﻿method,valid_pairs,positive_calls,shuffle_rejected,shuffle_valid
+pooled_pearson,4,4,265,999
+pooled_spearman,4,4,510,999
+pseudobulk,4,4,0,999
+mundlak,4,4,46,999
+equal_r_t,4,4,49,999
+reml_hksj,4,4,49,999
+memento,4,4,,
